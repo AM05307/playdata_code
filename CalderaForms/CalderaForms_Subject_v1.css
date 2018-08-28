@@ -1,0 +1,70 @@
+/* 칼데라폼 양식 */
+
+/*칼데라폼 신청서 제목부분*/
+	/* Mobile Device */ 
+	.cal_title_sql0901_pc {
+		display: none;
+	}
+
+	.cal_title_sql0901_m{
+		visibility : visible;
+		text-align: center;
+	}
+
+	#cal_miniTitle_sql0901_m{
+		background-color: #008996;
+		color: #ffffff;
+		font-size: 1.1rem;
+		line-height: 1.5rem;
+	}
+
+	#cal_mainTitle_sql0901_m{
+		font-weight: 700;
+		font-size: 1.8rem;
+		line-height: 2.5rem;
+		letter-spacing: -0.2rem;
+		color: #444444;
+	}
+
+	/* "상담신청서" */
+	#cal_subject_sql0901_m{
+		margin-bottom: 4rem;
+		font-size: 18px;
+		line-height: 20px;
+		letter-spacing: -0.2rem;
+		color: #555555;
+	}	
+
+/*칼데라폼 신청서 제목부분*/
+	/* Tablet & Desktop Device */ 
+	@media all and (min-width:768px) { 
+		.cal_title_sql0901_pc {
+			display: block;
+			text-align: center;			
+		}
+		
+		.cal_title_sql0901_m {
+			display: none;
+		}
+		
+		#cal_miniTitle_sql0901_pc{
+			background-color: #008996;
+			color: #ffffff;	
+		}
+		
+		#cal_mainTitle_sql0901_pc{
+			font-weight: 700;
+			font-size: 30px;
+			line-height: 40px;
+			letter-spacing: -0.2rem;
+			color: #444444;
+	}
+		/* "상담신청서" */
+		#cal_subject_sql0901_pc{
+			margin-bottom: 4rem;
+			font-size: 24px;
+			line-height: 30px;
+			letter-spacing: -0.2rem;
+			color: #555555;
+		}		
+}
