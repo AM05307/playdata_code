@@ -1,0 +1,53 @@
+/* 메인 이미지 위 공백 삭제 (워드프레스 기본 css 삭제)*/
+#main{
+	padding: 0px !important;
+}
+
+/*공통*/
+/*폰트크기 지정*/
+h2{
+	font-size: 2.5rem;
+}
+
+/* qna */
+/* qna - 제목 */
+.qnaTitle{
+	color: #001c58;
+	font-weight: 400;
+}
+
+.qnaTitle strong{
+	color: #001c58;
+	font-weight: 600;	
+}
+
+/* qna - 첫번째 단락 */
+.qnaText1{
+	font-weight: 600;
+	font-size: 1.875rem;
+	line-height: 2.5rem;
+}
+
+/* qna - 두번째 단락 */
+.qnaText2{
+	font-weight: 600;
+	font-size: 1.375rem;
+	line-height: 2.125rem;
+}
+
+/* qna - 세번째 단락 */
+.qnaText3{
+	font-weight: 400;
+	font-size: 1.375rem;
+	line-height: 2.125rem;
+}
+
+.qnaText3 strong{
+	font-weight: 600;
+}
+
+/* qna */
+
+
+
+
