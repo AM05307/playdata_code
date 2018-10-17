@@ -1,0 +1,560 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css); 
+
+
+/* 전체 페이지 기본 글씨체 */
+*{
+ font-family: 'Noto Sans KR', sans-serif; 
+ letter-spacing:-0.07rem;
+ font-size: 16px;
+ color: #222222;
+ 
+ /* 텍스트 선명하게 하는 코드 */
+ /* Adjust font size */
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    /* Font varient */
+    font-variant-ligatures: none;
+    -webkit-font-variant-ligatures: none;
+    /* Smoothing */
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+	text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+}
+
+.widget-info{
+    color: #85868c !important;
+}
+ 
+/* 마우스 드래그 했을때의 선택영역 색상 변경 */
+::selection{
+	background:#008996;
+	color:#fff;
+}
+::-moz-selection{
+	background:#008996;
+	color:#fff;
+}
+::-webkit-selection{
+	background:#008996;
+	color:#fff;
+} 
+
+/* 페이지에서 스크롤상태 표시하는 상단바 - Progress Indicator */
+.b3 #i-am-progress-indicator {
+  position:fixed;
+  top:0;
+  left:0;
+  height:15px;
+  background:#008996;
+  width:0%;
+  z-index: 500;
+}
+
+/*===============================================================*/
+/* 메인 이미지 위 공백 삭제 (워드프레스 기본 css 삭제) */
+#main{
+	padding: 0px !important;
+}
+
+/*공통*/
+/*텍스트 위치 지정 - 가운데*/
+.center{
+	text-align: center;
+}
+/*폰트크기 지정 - 제목*/
+h2{
+	font-size: 2.5rem;
+}
+
+/*폰트크기 지정 - 제목*/
+h2[id$="Title"]{
+    text-align: center;
+    font-weight: 600;
+}
+
+h2[id$="_SubTitle"]{
+    text-align: center;
+    font-weight: lighter;
+}
+h5{
+	padding: 0.625rem;
+	text-align: center;
+	font-size: 1.875rem;
+	line-height: 2.5rem;
+	font-weight: 500;
+}
+
+/*폰트크기 지정 - 기본 텍스트 22px*/
+.text{
+	padding: 0.625rem;
+	font-size: 1.375rem;
+	line-height: 2rem;
+	font-weight: 400;
+}
+
+.text strong{
+	font-size: 1.375rem;
+	line-height: 2rem;
+	font-weight: 500;
+}
+/*폰트색 지정 - 제목, 내용*/
+#white{
+	color: #ffffff;
+}
+
+
+/*텍스트 위치 지정 - 가운데*/
+.center{
+	text-align: center;
+}
+
+/* qna */
+/* qna - 제목 */
+.qnaTitle{
+	color: #001c58;
+	font-weight: 400;
+}
+
+.qnaTitle strong{
+	color: #001c58;
+	font-weight: 600;	
+}
+
+.introduceTitle strong{
+	color: #001c58;
+	font-weight: 600;	
+}
+
+/* qna - 첫번째 단락 */
+p[class$="Text1"]{
+	font-weight: 600;
+	font-size: 1.875rem;
+	line-height: 2.5rem;
+}
+
+p[class$="Text1-1"]{
+    padding-top: 1.5rem;
+	font-weight: 500;
+	font-size: 1.5rem;
+	line-height: 2.5rem;
+}
+
+/* qna - 답변*/
+.qnaText2{
+	font-weight: 500;
+	font-size: 1.375rem;
+	line-height: 2.125rem;
+}
+
+.qnaText2 strong{
+	font-weight: 700;
+}
+
+/*양성과정 소개*/
+.infoText{
+	font-weight: 700;
+	font-size: 1.875rem;
+	line-height: 2.5rem;
+	color: #333333;
+}
+/*양성과정 소개 끝*/
+
+/*6개월 올인*/
+/*6개월 올인 - 지원 내용*/
+.supportText1{
+	text-align: center;
+	font-weight: 600;
+	font-size: 1.875rem;
+	line-height: 2.625rem;
+}
+/*6개월 올인 - 지원 내용 상세*/
+.supportText2{
+	text-align: center;
+	font-weight: 400;
+	font-size: 1.125rem;
+	line-height: 1.625rem;
+}
+
+/*커리큘럼*/
+/* Mobile Device */
+	/*커리큘럼 - 표*/
+	#curriculum_m table{
+		width: 100%;
+		border-collapse: collapse;
+		border: 0;
+	}
+
+	#curriculum2_m table{
+		width: 100%;
+		border-collapse: collapse;
+		border: 0;
+	}
+
+	td{
+		border: 0px !important;
+	}
+
+	/*커리큘럼 - 표 - 왼쪽 칸*/
+	td[class$="Lecture_m"]{
+		width: 25%;
+		text-align: center;
+		font-size: 1.5rem;;
+		line-height: 1.875rem;
+		font-weight: 700;
+	}
+	/*커리큘럼 - 표 - "특강", "프로젝트", padding*/
+	.specialLecture_m,
+	.projectLecture_m{
+		background-color: #cccccc;
+		padding-top: 1.25rem !important;
+		padding-bottom: 1.25rem !important;
+	}
+	/*커리큘럼 - 표 - "정규커리큘럼"칸*/
+	.webLecture_m{
+		background-color: #bbbbbb;
+		padding-top: 1.25rem !important;
+		padding-bottom: 1.25rem !important;
+	}
+	/*커리큘럼 - 표 - "특강" 칸 배경*/
+	.specialLecture_m{
+		background-color: #cccccc;
+	}
+	/*커리큘럼 - 표 - "프로젝트"칸 배경 및 글자 색*/
+	.projectLecture_m{
+		background-color: #e2bbc7;
+		color: #ffffff;
+	}
+	/*커리큘럼 - 표 - 내용칸*/
+	#curriculum_m .contents_m{
+		padding-top: 1.25rem;
+		padding-left: 1.25rem;
+		background-color: #f1f1f1 !important;
+		vertical-align: top;
+	}
+	/*커리큘럼 - 표 - 내용칸*/
+	.contents_m p{
+		margin-bottom: 0rem;
+	}
+
+	/*커리큘럼 - 표 - 내용칸 - 제목*/
+	.textTitle_m{
+		padding: 0.625rem;
+		font-size: 1.5rem;
+		line-height: 2rem;
+		font-weight: 800;
+	}
+	/*커리큘럼 - 표 - 내용칸 - 제목밑줄*/
+    em{
+	    border-bottom: 3px solid #222222;
+	    line-height: 1.375rem;
+	}
+	.stepMargin_m{
+		padding-top: 0.625rem;
+	}
+	
+	/*커리큘럼 - 표 - 내용칸 - 내용*/
+	.text_m{
+		padding: 0.625rem;
+		font-size: 1.375rem;
+		line-height: 2rem;
+		font-weight: 500;
+	}
+
+	/*커리큘럼 - 표 - 내용칸 - 내용목록*/
+	.textList_m{
+		padding: 0.3125rem;
+		font-size: 1.25rem;
+		line-height: 1.625rem;
+		font-weight: 500;
+	}
+
+	/*커리큘럼 - 표 - 화살표*/
+	.arrow_m{
+		background-color: #e2ebdf;
+	}
+	/*커리큘럼 표 - 표안의 표 td*/
+	.width td{
+		width: 50%;
+		padding-left: 0.625rem;
+	}
+	/*커리큘럼 표 - 표안의 표 td - 내용*/
+	.text2{
+		padding: 0rem;
+		font-size: 1rem;
+		line-height: 1.5rem;
+		font-weight: 400;
+	}
+/* Mobile Device 끝 */
+
+/* Tablet & Device */
+@media all and (min-width:768px) { 
+	/*커리큘럼 - 표*/
+	#curriculum table{
+		width: 100%;
+		border-collapse: collapse;
+		border: 0;
+	}
+
+	#curriculum2 table{
+		width: 100%;
+		border-collapse: collapse;
+		border: 0;
+	}
+
+	td{
+		border: 0px !important;
+	}
+
+	/*커리큘럼 - 표 - 왼쪽 칸*/
+	td[class$="Lecture"]{
+		width: 25%;
+		text-align: center;
+		font-size: 1.875rem;
+		line-height: 2.5rem;
+		font-weight: 500;
+	}
+	/*커리큘럼 - 표 - "특강", "프로젝트"*/
+	.specialLecture,
+	.projectLecture{
+		padding-top: 1.563rem !important;
+		padding-bottom: 1.563rem !important;
+	}
+	/*커리큘럼 - 표 - "정규커리큘럼"칸*/
+	.webLecture{
+		background-color: #bbbbbb;
+		padding-top: 1.25rem !important;
+		padding-bottom: 1.25rem !important;
+	}
+	/*커리큘럼 - 표 - "특강" 칸 배경*/
+	.specialLecture{
+		background-color: #cccccc;
+	}
+	/*커리큘럼 - 표 - "프로젝트"칸 배경 및 글자 색*/
+	.projectLecture{
+		background-color: #e2bbc7;
+		color: #ffffff;
+	}
+	/*커리큘럼 - 표 - 내용칸*/
+	#curriculum .contents{
+		padding-top: 1.563rem;
+		padding-left: 3.125rem;
+		background-color: #f1f1f1 !important;
+		vertical-align: top;
+	}
+	/*커리큘럼 - 표 - 내용칸*/
+	.contents p{
+		margin-bottom: 0rem;
+	}
+
+	/*커리큘럼 - 표 - 내용칸 - 제목 왼쪽 화살표*/
+	#arrow-down{
+		width: 5%
+	}
+
+	/*커리큘럼 - 표 - 내용칸 - 제목*/
+	.sectionTitle{
+		padding: 0.625rem;
+		font-size: 1.5rem;
+		line-height: 2.25rem;
+		font-weight: 600;
+	}
+	/*커리큘럼 - 표 - 내용칸 - 제목 밑줄*/
+	u{
+		text-decoration: none;
+	    border-bottom: 3px solid #222222;
+	    margin-bottom: 0.3125rem;
+	}
+	.stepMargin{
+		padding-top: 0.625rem;
+		padding-bottom: 0.625rem;
+	}
+	/*커리큘럼 - 표 - 내용칸 - 내용*/
+	.text {
+		padding: 0.625rem;
+	}
+	/*커리큘럼 - 표 - 화살표*/
+	.arrow{
+		background-color: #e2ebdf;
+	}
+
+	/*커리큘럼 표 - 표안의 표 td*/
+	}
+	.width1{
+		margin-left: 1.25rem;
+		padding-left: 1.25rem;
+		width: 50%;
+	}
+	/*커리큘럼 표 - 표안의 표 td - 내용*/
+	.text2{
+		padding: 0rem;
+		font-size: 1.375rem;
+		line-height: 2rem;
+		font-weight: 400;
+	}
+}
+/*Tablet & Device 끝*/
+/*커리큘럼 끝*/
+
+/*강사소개*/
+/*강사소개 - "000선생님"*/
+#teacherName{
+    text-align: left;
+	font-size: 1.875rem;
+	line-height: 2rem;
+	font-weight: 500;
+}
+.sectionTitle_m{
+		padding: 0.625rem;
+		font-size: 1.5rem;
+		line-height: 1.875rem;
+		font-weight: 700;
+	}
+
+/*취업지원*/
+/*취업지원- 글박스 - 소제목*/
+.jobSupport_Title{
+	text-align: left;
+    line-height: 3.125rem;
+    font-weight: bolder;
+}
+
+
+/*취업지원 끝*/
+
+/*플레이 데이터의 약속*/
+/*플레이 데이터의 약속 - 제목*/
+#promise_Title{
+	color: #ffffff;
+}
+
+
+/*===============================================================*/
+
+/* caldera form css */
+button.caldera-forms-modal {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  line-height: 1.8;
+  appearance: none;
+  box-shadow: none;
+  border: none;
+  border-radius: 0.2;
+  -webkit-transition: 0.3s; /* Safari */
+    transition: 0.3s;
+    height: 60px;
+    width: 100%;
+    color: #fff;
+    background-color: #28d0c0;
+    border: none;
+    border-radius: 7px;
+  font-size: 1.7em;
+  border-bottom: 4px solid #11c0b0;
+  border-right: 2px solid #11c0b0;
+  text-shadow: none;
+}
+
+
+button:hover {
+  background-color: #24b0a0;
+  border-bottom: 4px solid #11a090;
+  border-right: 2px solid #11a090;
+  text-shadow: none;
+}
+
+button:active {
+    background-color: #249080;
+    border-top: 4px solid #118070;
+    border-left: 2px solid #118070;
+    border-bottom: none;
+    border-right: none;
+    text-shadow: none;
+}
+
+
+
+
+/*칼데라폼 신청서 제목부분*/
+	/* Mobile Device */ 
+	.cal_title_pc {
+		display: none;
+	}
+
+	.cal_title_m{
+		visibility : visible;
+		text-align: center;
+	}
+
+	#cal_miniTitle_m{
+		background-color: #008996;
+		color: #ffffff;
+		font-size: 1.1rem;
+		line-height: 1.5rem;
+	}
+
+	#cal_ready_m{
+		font-size: 0.9rem;
+		line-height: 1.2rem;
+		color: #555555;
+	}
+
+	#cal_mainTitle_m{
+		font-weight: 700;
+		font-size: 1.8rem;
+		line-height: 2.5rem;
+		letter-spacing: -0.2rem;
+		color: #444444;
+	}
+
+	/* "상담신청서" */
+	#cal_subject_m{
+		margin-bottom: 4rem;
+		font-size: 18px;
+		line-height: 20px;
+		letter-spacing: -0.2rem;
+		color: #555555;
+	}	
+
+/*칼데라폼 신청서 제목부분*/
+	/* Tablet & Desktop Device */ 
+	@media all and (min-width:768px) { 
+		.cal_title_pc {
+			display: block;
+			text-align: center;			
+		}
+		
+		.cal_title_m {
+			display: none;
+		}
+		
+		#cal_miniTitle_pc{
+			background-color: #008996;
+			color: #ffffff;	
+		}
+
+		#cal_ready{
+			font-size: 1.5rem;
+			line-height: 1.7rem;
+			color: #555555;
+		}
+		
+		#cal_mainTitle_pc{
+			font-weight: 700;
+			font-size: 30px;
+			line-height: 40px;
+			letter-spacing: -0.2rem;
+			color: #444444;
+	}
+		/* "상담신청서" */
+		#cal_subject_pc{
+			margin-bottom: 4rem;
+			font-size: 24px;
+			line-height: 30px;
+			letter-spacing: -0.2rem;
+			color: #555555;
+		}		
+}
+/* 칼데라폼 제목부분 끝
+
+
