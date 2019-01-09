@@ -1,0 +1,616 @@
+/* 공통 - 소제목 밑줄 */
+    .miniline{
+        width: 16px;
+        border: 0;
+        height: 2px;
+        background: #7b7b7b;
+        text-align:center; 
+        margin: 0 auto;
+    }
+
+/*공통 - 제목*/
+    h2{
+        text-align: center;
+    }
+
+    .divTitle{
+        font-size: 1.875rem;
+        color: #333333;
+        font-weight: 500;
+        text-align: center;       
+    }
+
+    strong .divTitle{
+        font-weight: bolder;
+    }
+
+
+    .divTitleWhite{
+        font-size: 1.875rem;
+        color: #ffffff;
+        font-weight: 500; 
+        text-align: center;      
+    }
+
+    .divTitleWhite > strong{
+        font-size: 1.875rem;
+        color: #ffffff;
+        font-weight: 600; 
+        text-align: center;      
+    }
+
+    .divTitlePink{
+        font-size: 1.875rem;
+        color: #ff315a;
+        font-weight: 500; 
+        text-align: center;      
+    }
+
+    .divTitlePink > strong{
+        font-size: 1.875rem;
+        color: #ff315a;
+        font-weight: 600; 
+        text-align: center;      
+    }
+
+    .divTitlePink > strong > em{
+        font-size: 1.875rem;
+        color: #ff315a;
+        font-weight: 600; 
+        text-align: center;      
+    }
+/*공통 - 정렬*/
+    #textLeft{
+        text-align: left;
+    }
+
+/*공통 - 소제목*/
+    .divSubTitle{
+        font-size: 1.25rem;
+        color: #444444;
+        font-weight: 400;
+        text-align: center;       
+    }
+
+/*공통 - 기본 텍스트*/
+    .divText{
+        font-size: 1.125rem;
+        color: #444444;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .divText > strong{
+        font-size: 1.125rem;
+        color: #444444;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .divTextLeft{
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+        font-size: 1.125rem;
+        color: #444444;
+        font-weight: 400;
+        text-align: left;
+    }
+
+    .divTextLeft_m{
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+        font-size: 1.125rem;
+        color: #444444;
+        font-weight: 400;
+        text-align: left;
+    }
+
+
+    .divTextPink{
+        font-size: 1.125rem;
+        color: #ff315a;
+        font-weight: 400;
+        text-align: center;
+    }
+
+
+/* 채용공고, 수료생 프로젝트, 수료생 인터뷰 보러가기 a tag*/
+.divALink{
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+}
+
+/*다른 css설정은 똑같고 배경색,글자색만 다른경우*/
+/*커리큘럼*/
+    /*진한 회색 배경 + 흰 글씨*/
+    .bg333fcfff{
+        background: #333333;
+        color: #ffffff;
+    }
+    /*옅은 회색 배경 + 검정 글씨*/
+    .bgcccfc333{
+        background: #cccccc;
+        color: #333333;
+    }
+
+    /*옅은 회색 배경 + 더 진한 검정 글씨*/
+    .bgcccfc444{
+        background: #cccccc;
+        color: #444444;
+    }
+/*취업처*/
+
+/*취업처 - 박스 - 소제목*/
+    .boxSubTitle{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 1.75rem;
+        color: #444444;
+        font-weight: 400;
+        text-align: center;       
+    }
+
+/*취업처 - 박스 - 내용*/
+    .boxContent{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 1.375rem;
+        color: #555555;    
+        font-weight: 400;
+        letter-spacing: -0.1rem;
+        text-align: center;
+    }
+
+/*개발자 채용정보 보러가기*/
+/*수료생 프로젝트 보러가기*/
+    .imgBox{
+        text-align: center;
+    }
+
+    #playdataXwanted{
+        vertical-align: middle;
+        padding-right: 20px;
+    }
+
+    #divTitleJobSearching:hover {
+        color: #1ebbf0;
+    }
+
+
+
+/*취업처 끝*/
+
+/* 커리큘럼 - PC ver */
+.curriculum{
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.curriculumSubject {
+    margin: 0px;
+    cursor: pointer;
+    padding: 20px 10px 20px 50px;
+    position: relative;
+    font-size: 1.5rem;
+    font-weight: 700; 
+}
+
+.curriculumSubject::before, .curriculumSubject::after{
+    position: absolute;
+    content: "";
+    width: 35px;
+    height: 35px;
+    margin-left: 90%;
+    margin-right: 20px;
+    background-position: center center;
+    background-repeat: no-repeat;
+   }
+.curriculumSubject::before{
+    display: inline-block;
+    background-image: url("http://playdata.io/academy/wp-content/uploads/2019/01/arrow_down.png");
+}
+.curriculumSubject::after{
+    display: none;
+    background-image: url("http://playdata.io/academy/wp-content/uploads/2019/01/arrow_up.png");
+}
+
+.curriculum.open .curriculumSubject::before{
+    display: none;
+}
+.curriculum.open .curriculumSubject::after{
+    display: block;
+    transform: translate3d(0, -100%, 0);
+}
+.curriculumContentContainer {
+    height: 0;
+    overflow: hidden;
+    padding: 0;
+}
+.curriculumContent{
+    padding: 50px 20px 40px 50px;
+    background-color: #dddddd;
+    font-size: 1.5rem;
+    color: #444444;
+    font-weight: 400;
+}
+
+.curriculumContent > strong{
+    font-size: 1.5rem;
+    color: #444444;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+
+/* 커리큘럼 - 도표 - PC ver */
+.tableBorder{
+    border: none !important;
+    border-color: ;
+}
+
+.tableExplainText{
+    padding-bottom: 20px !important;
+    font-size: 1.5rem;
+    color: #444444;
+    font-weight: 400;
+    border: none !important;
+}
+
+.tableExplainText > strong{
+    font-size: 1.5rem;
+    color: #444444;
+    font-weight: 500;
+}
+
+.tableText{
+    width: 25rem !important;
+    font-size: 1.5rem;
+    color: #444444;
+    font-weight: 400; 
+}
+
+/* 커리큘럼 - PC ver 끝 */
+
+/* 커리큘럼 - Movile ver */
+.curriculum_m{
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.curriculumSubject_m {
+    margin: 0px;
+    cursor: pointer;
+    padding: 20px 10px 20px 20px;
+    position: relative;
+    font-size: 1.25rem;
+    font-weight: 700 !important; 
+    text-align: left;
+}
+
+.curriculumSubject_m::before, .curriculumSubject_m::after{
+    position: absolute;
+    content: "";
+    width: 35px;
+    height: 35px;
+    margin-left: 80%;
+    margin-right: 20px;
+    background-position: center center;
+    background-repeat: no-repeat;
+   }
+.curriculumSubject_m::before{
+    display: inline-block;
+    background-image: url("http://playdata.io/academy/wp-content/uploads/2019/01/arrow_down.png");
+}
+.curriculumSubject_m::after{
+    display: none;
+    background-image: url("http://playdata.io/academy/wp-content/uploads/2019/01/arrow_up.png");
+}
+
+.curriculum_m.open .curriculumSubject_m::before{
+    display: none;
+}
+.curriculum_m.open .curriculumSubject_m::after{
+    display: block;
+    transform: translate3d(0, -100%, 0);
+}
+.curriculumContentContainer_m {
+    height: 0;
+    overflow: hidden;
+    padding: 0;
+}
+.curriculumContent_m{
+    padding: 30px 20px 30px 20px;
+    background-color: #dddddd;
+    font-size: 1.125rem;
+    color: #444444;
+    font-weight: 400;
+}
+
+.explainText_m{
+    font-size: 1.125rem;
+    color: #444444;
+    font-weight: 500;
+    margin-bottom: 10px !important;
+}
+
+.tableText_m{
+    margin-bottom: 0px !important;
+    font-size: 1.125rem;
+    color: #444444;
+    font-weight: 400; 
+}
+
+/* 커리큘럼 - Mobile ver 끝 */
+
+
+
+/* 강사소개 */
+.teacher{
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+/* 강사소개 - 강사명 */
+.teacherSubjectName {
+    margin: 0px;
+    cursor: pointer;
+    font-weight: 500;
+    padding: 20px 10px 20px 50px;
+    position: relative;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: left;
+    background: #cccccc;
+    color: #444444;
+}
+
+.teacherSubjectName > strong{
+    margin: 0px;
+    padding: 20px 10px 20px 50px;
+    cursor: pointer;
+    font-weight: 600;
+    position: relative;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: left;
+    background: #cccccc;
+    color: #444444;
+}
+/* 강사소개 - 항목명*/
+.teacherSubject{
+    margin: 0px;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 20px 10px 20px 50px;
+    position: relative;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: left;
+    background: #dddddd;
+    color: #444444;
+}
+
+/* 강사소개 - 내용*/
+.teacherContentContainer {
+    overflow: hidden;
+    padding: 0;
+}
+
+.teacherContent{
+    padding: 30px 20px 40px 0px;
+    background-color: #dddddd;
+    font-size: 1.5rem;
+    color: #444444;
+    font-weight: 400;
+}
+
+.teacherText{
+    padding-left: 50px;
+    font-size: 1.25rem;
+    color: #444444;
+    font-weight: 400; 
+}
+/* 강사소개 끝 */
+
+/* 강사소개 - Mobile ver */
+.teacherInfo_m{
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+/* 강사소개 - 강사명 - Mobile ver */
+#marginBottomZero{
+    margin-bottom: 0px !important;
+}
+
+.teacherName_m {
+    margin: 0px;
+    cursor: pointer;
+    padding: 20px 10px 20px 20px;
+    position: relative;
+    font-size: 1.25rem;
+    font-weight: 700 !important; 
+    text-align: left;
+}
+
+/* 강사소개 - 항목 - Mobile ver */
+.teacherSubject_m {
+    margin: 0px;
+    cursor: pointer;
+    padding: 20px 10px 20px 20px;
+    position: relative;
+    font-size: 1.25rem;
+    font-weight: 700 !important; 
+    text-align: left;
+}
+
+.teacherSubject_m::before, .teacherSubject_m::after{
+    position: absolute;
+    content: "";
+    width: 35px;
+    height: 35px;
+    margin-left: 80%;
+    margin-right: 20px;
+    background-position: center center;
+    background-repeat: no-repeat;
+   }
+.teacherSubject_m::before{
+    display: inline-block;
+    background-image: url("http://playdata.io/academy/wp-content/uploads/2019/01/arrow_down.png");
+}
+.teacherSubject_m::after{
+    display: none;
+    background-image: url("http://playdata.io/academy/wp-content/uploads/2019/01/arrow_up.png");
+}
+
+.teacherInfo_m.open .teacherSubject_m::before{
+    display: none;
+}
+.teacherInfo_m.open .teacherSubject_m::after{
+    display: block;
+    transform: translate3d(0, -100%, 0);
+}
+.teacherContentContainer_m {
+    height: 0;
+    overflow: hidden;
+    padding: 0;
+}
+.teacherContent_m{
+    padding: 30px 20px 30px 20px;
+    background-color: #dddddd;
+    font-size: 1.125rem;
+    color: #444444;
+    font-weight: 400;
+}
+
+.tableText_m{
+    margin-bottom: 0px !important;
+    font-size: 1.125rem;
+    color: #444444;
+    font-weight: 400; 
+}
+/* 강사소개 - Mobile ver 끝 */
+
+/* 수료생 프로젝트, 수료생 인터뷰 보러가기*/
+.divALink{
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+}
+/* 수료생 프로젝트 보러가기*/
+#divTitleProject{
+    line-height: 32px;
+    font-size: 1.875rem;
+    color: #ffffff;
+    font-weight: 600;  
+    }
+
+#divTitleProject > a > strong{
+    line-height: 32px;
+    font-size: 1.875rem;
+    color: #ffffff;
+    font-weight: 700; 
+    }
+
+/* 수료생 인터뷰 보러가기*/
+#divTitleInterview{
+    line-height: 32px;
+    font-size: 1.875rem;
+    color: #ffffff;
+    font-weight: 600; 
+    }
+
+#divTitleInterview > a > strong{
+    line-height: 32px;
+    font-size: 1.875rem;
+    color: #ffffff;
+    font-weight: 700; 
+    }
+
+/* 플레이데이터 스페셜 프로그램 */
+
+#specialDiv1{
+    height: 15.63rem !important;
+}
+
+#specialDiv2{
+    height: 250px !important;
+}
+
+#specialDiv3{
+    height: 250px !important;
+}
+
+#specialDiv4{
+    height: 250px !important;
+}
+
+/* 플레이데이터 스페셜 프로그램 */
+
+#divSpecial1{
+    width: 50%;
+    display: inline-block;
+    float: left;
+    vertical-align: middle;
+}
+
+#divImg1{
+    width: 50%;
+    vertical-align: middle;
+    float: right;
+    max-height: 250px;
+}
+
+/* 취업 지원 프로그램*/
+
+/* 취업 지원 프로그램 - 3. 데모데이 - 더보기 버튼 */
+#moreBtn{
+    display: block;
+}
+
+#demodayBtn {
+    color: #000000;
+    border: #000000 solid 2px;
+    background-color: #eeeeee;
+    padding: 0px 5px 5px 5px;
+    width: 6.25rem;
+    margin-top: 10px;
+    font-size: 1.125rem;
+    line-height: 1.25rem;
+}
+
+#demodayBtn:hover {
+    color: #ffffff;
+    border: #000000 solid 2px;
+    background-color: #000000;
+    padding: 0px 5px 5px 5px;
+    width: 6.25rem;
+    margin-top: 10px;
+    font-size: 1.125rem;
+    line-height: 1.25rem;
+}
+/* 취업 지원 프로그램 - 3. 데모데이 - 더보기 버튼 끝 */
+
+/* 취업 지원 프로그램 - 3. 데모데이 - 더보기 버튼 - mobile*/
+#demodayBtn_m {
+    color: #ffffff;
+    border: #ffffff solid 2px;
+    background-color: rgba( 255, 255, 255, 0.99 );
+    padding: 0px 5px 5px 5px;
+    width: 6.25rem;
+    margin-top: 10px;
+    font-size: 1.125rem;
+    line-height: 1.25rem;
+}
+
+#demodayBtn_m:hover {
+    color: #000000;
+    border: #ffffff solid 2px;
+    background-color: #ffffff;
+    padding: 0px 5px 5px 5px;
+    width: 6.25rem;
+    margin-top: 10px;
+    font-size: 1.125rem;
+    line-height: 1.25rem;
+}
+/* 취업 지원 프로그램 - 3. 데모데이 - 더보기 버튼 - mobile 끝 */
