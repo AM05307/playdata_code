@@ -1,0 +1,552 @@
+/*caldera form css */
+/* 칼데라폼 버튼 */
+button.caldera-forms-modal {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  appearance: none;
+  box-shadow: none;
+  border: none;
+  height: 7.5rem;
+  width: 100%;
+  color: #ffffff;
+  background-color: #000000;
+  font-size: 2rem;
+  text-shadow: none;
+}
+
+button:hover {
+  background-color: #000000;
+  text-shadow: none;
+}
+
+button:active {
+  background-color: #000000;
+  border-bottom: none;
+  border-right: none;
+  text-shadow: none;
+}
+/* 칼데라폼 버튼 끝 */
+/* caldera form css 끝 */
+
+
+/* 공통 - 소제목 밑줄 */
+    .miniline_m{
+      width: 16px;
+      border: 0;
+      height: 2px;
+      background: #7b7b7b;
+      text-align:center; 
+      margin: 0 auto;
+    }
+
+/*공통 - 제목*/
+    h2{
+        text-align: center;
+    }
+
+    .divTitle_m{
+        padding: 50px 10px 15px 10px;
+        /*35px*/
+        font-size: 2.188rem;
+        /*45px*/    
+        line-height: 2.813rem;
+        color: #4d1091;
+        /*bold*/
+        font-weight: 700;
+        text-align: center;
+        letter-spacing: -0.15rem;       
+    }
+
+    .divTitle_m strong{ 
+        font-size: 2.188rem;
+        line-height: 2.813rem;
+        color: #4d1091;
+        /*black*/
+        font-weight: 800;
+        text-align: center;
+        letter-spacing: -0.1rem; 
+    }
+
+    .divSubTitle_m{
+        padding: 10px 10px 15px 10px;
+        font-size: 1.25rem;
+        line-height: 1.875rem;
+        color: #444444;
+        /*DemiLight*/
+        font-weight: 400;
+        text-align: center;
+        letter-spacing: -0.1rem;       
+    }
+
+    .divSubTitle_m strong{
+        /*20px*/
+        font-size: 1.25rem;
+        /*30px*/
+        line-height: 1.875rem;
+        color: #444444;
+        /*Medium*/
+        font-weight: 600;
+        text-align: center;
+        letter-spacing: -0.1rem;       
+    }
+
+/*취업처*/
+
+/*취업처 - 박스 - 소제목*/
+  .boxSubTitle_m {
+      padding-top: 20px;
+      padding-bottom: 10px;
+      font-size: 1.25rem;
+      letter-spacing: -0.1rem;
+      color: #444444;
+      font-weight: 400;
+      text-align: center;
+  }
+
+  .boxSubTitle_m strong{
+      padding-top: 20px;
+      padding-bottom: 10px;
+      font-size: 1.25rem;
+      letter-spacing: -0.07rem;
+      color: #444444;
+      font-weight: 700;
+      text-align: center;
+  }
+
+/*취업처 - 박스 - 내용*/
+  .boxContent_m{
+      padding-top: 10px;
+      padding-bottom: 20px;
+      font-size: 1.25rem;
+      letter-spacing: -0.1rem;
+      color: #444444;    
+      font-weight: 400;
+      text-align: center;
+  }
+/* 취업처 끝 */
+
+/* 6개월 몰두 */
+/* 6개월 몰두 - 제목*/
+  .divTitleWhite_m{
+      padding: 50px 10px 10px 10px;
+      /*35px*/
+      font-size: 2.188rem;
+      /*45px*/    
+      line-height: 2.813rem;
+      color: #ffffff;
+      /*bold*/
+      font-weight: 700;
+      text-align: center;
+      letter-spacing: -0.18rem;       
+  }
+
+/* 6개월 몰두 - 내용 */
+  .divSubTitleWhite_m{
+      padding-top: 10px;
+      padding-bottom: 10px;
+      /*20px*/
+      font-size: 1.25rem;
+      /*30px*/
+      line-height: 1.875rem;
+      color: #ffffff;
+      /*Regular*/
+      font-weight: 500;
+      text-align: center;
+      letter-spacing: -0.1rem;       
+  }  
+
+ /* 6개월 몰두 - 지원항목 - 지원내용 */
+  .divSubTitleColor_m{
+      padding-top: 20px;
+      /*20px*/
+      font-size: 1.25rem;
+      /*30px*/
+      line-height: 1.875rem;
+      color: #b16cff;
+      /*Regular, <strong>=Bold*/
+      font-weight: 500;
+      text-align: center;
+      letter-spacing: -0.1rem;       
+  } 
+
+  .divSubTitleColor_m strong{
+      /*20px*/
+      font-size: 1.25rem;
+      /*30px*/
+      line-height: 1.875rem;
+      color: #b16cff;
+      text-align: center;
+      letter-spacing: -0.1rem;       
+  } 
+
+  .divSubTitleColor_m strong em{
+      /*20px*/
+      font-size: 1.25rem;
+      /*30px*/
+      line-height: 1.875rem;
+      color: #b16cff;
+      text-align: center;
+      letter-spacing: -0.1rem;       
+  }   
+
+  .divTextColor_m{
+    padding-top: 10px;
+    padding-bottom: 50px;
+    /*16px*/
+    font-size: 1rem ;
+    line-height: 1.5rem;
+    color: #b16cff;
+    font-weight: 500;
+    text-align: center;
+  }
+/* 6개월 몰두 끝 */
+
+/* 커리큘럼 - Mobile ver */
+.curriculum_m{
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+/* 커리큘럼 - Step 제목 - Mobile ver */
+.curriculumSubject_m {
+    margin: 0px;
+    cursor: pointer;
+    padding: 10px 10px 10px 25px;
+    position: relative;
+    /*20px*/
+    font-size: 1.25rem;
+    font-weight: 600 !important; 
+    text-align: left;
+    letter-spacing: -0.05rem;
+}
+
+.curriculumSubject_m strong{
+    margin: 0px;
+    cursor: pointer;
+    position: relative;
+    /*20px*/
+    font-size: 1.25rem;
+    font-weight: 600 !important; 
+    text-align: left;
+}
+
+.curriculumSubject_m em{
+    /*20px*/
+    font-size: 1.25rem;
+    font-weight: 900 !important; 
+    text-align: left;
+}
+
+.curriculumSubject_m::before, .curriculumSubject_m::after{
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 30px;
+    margin-left: 80%;
+    margin-right: 10px;
+    background-position: center center;
+    background-repeat: no-repeat;
+   }
+.curriculumSubject_m::before{
+    display: inline-block;
+    background-image: url("http://playdata.io/academy/wp-content/uploads/2019/01/arrow_down.png");
+}
+.curriculumSubject_m::after{
+    display: none;
+    background-image: url("http://playdata.io/academy/wp-content/uploads/2019/01/arrow_up.png");
+}
+
+.curriculum_m.open .curriculumSubject_m::before{
+    display: none;
+}
+.curriculum_m.open .curriculumSubject_m::after{
+    display: block;
+    transform: translate3d(0, -100%, 0);
+}
+.curriculumContentContainer_m {
+    height: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+/* 커리큘럼 - 설명칸 - Mobile ver */
+.curriculumContent_m{
+    padding: 25px 40px 25px 25px;
+    background-color: #dddddd;
+    color: #444444;
+}
+
+/* 커리큘럼 - 과목 설명 text - Mobile ver */
+.explainText_m{
+    /*16px*/
+    padding-bottom: 25px !important;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: -0.1rem; 
+    line-height: 1.5rem;
+    color: #444444;    
+}
+
+/* 커리큘럼 - 과목 배우는 챕터 text - Mobile ver */
+.tableText_m strong{
+    margin-bottom: 0px !important;
+    text-align: left;
+    font-size: 1.25rem;
+    font-weight: 600 !important;    
+    letter-spacing: -0.1rem;
+    line-height: 1.875rem;     
+}
+
+.tableText_m{
+    margin-bottom: 0px !important;
+    text-align: left;
+    font-size: 1.25rem;
+    font-weight: 500 !important;     
+    letter-spacing: -0.1rem;
+    line-height: 1.875rem; 
+}
+
+/* 커리큘럼 - Mobile ver */ 
+
+/* 강사소개 - Mobile ver */
+.teacherTitle_m{
+      padding: 25px 10px 25px 10px;
+      /*20px*/
+      font-size: 1.25rem;
+      /*30px*/    
+      line-height: 1.875rem;
+      color: #444444;
+      /*bold*/
+      font-weight: 700;
+      text-align: center;
+      letter-spacing: -0.15rem;       
+  }
+
+.teacherInfo_m{
+    overflow: hidden;
+}
+
+/* 강사소개 - 강사명 - Mobile ver */
+.teacherName_m {
+    margin: 0px;
+    cursor: pointer;
+    padding: 10px 10px 10px 25px;
+    position: relative;
+    /*20px*/
+    font-size: 1.25rem;
+    font-weight: 600 !important; 
+    text-align: left;
+    letter-spacing: -0.05rem;
+}
+
+/* 강사소개 - 항목 - Mobile ver */
+
+.teacherContent_m{
+    padding: 25px;
+    background-color: #dddddd;
+}
+
+.teacherText_m{
+    margin-bottom: 0px !important;
+    /*16px*/
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #444444;
+    font-weight: 500;
+    letter-spacing: -0.1rem; 
+}
+
+.teacherText_m strong{
+    margin-bottom: 0px !important;
+    /*16px*/
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #444444;
+    font-weight: 500; 
+    letter-spacing: -0.1rem;
+}
+
+/* 강사소개 - Mobile ver 끝 */
+
+/* 실무특강 - Mobile ver */
+/* 공통 - 소제목 밑줄 */
+.miniline_white{
+    width: 16px;
+    border: 0;
+    height: 2px;
+    background: #ffffff;
+    text-align:center; 
+    margin: 0 auto;
+}
+
+/* 실무특강 - 박스 - Mobile ver */
+.divH450_m{
+  position: relative;
+  width: auto;
+  height: 225px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #ffffff !important;
+}
+
+/* 실무특강 - 텍스트 박스 - Mobile ver */
+.divOnlyPlaydata_m{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  color: #ffffff !important;
+}
+
+/* 실무특강 - 제목 - Mobile ver */
+.OnlyPlaydataText_m{
+  margin-bottom: 0px !important;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  letter-spacing: -0.1rem;
+  color: #ffffff !important;
+  font-weight: 400;
+  text-align: center; 
+}
+
+/* 실무특강 - 내용 - Mobile ver */
+.OnlyPlaydataText_m strong{
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  letter-spacing: -0.07rem;
+  color: #ffffff !important;
+  font-weight: 700;
+  text-align: center; 
+}
+/* 실무특강 - Mobile ver 끝 */
+
+/* 취업지원 - Mobile ver */
+/* 취업지원 - 박스와 텍스트 박스는 실무특강과 동일 - Mobile ver */
+/* 취업지원 - 1,2,3 번째 제목 - Mobile ver */
+.OnlyJobSupportTitle123_m{
+  margin-bottom: 0px !important;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  letter-spacing: -0.07rem;
+  color: #ffffff !important;
+  font-weight: 700;
+  text-align: center; 
+}
+
+/* 취업지원 - 1,2,3 번째 내용 - Mobile ver */
+.OnlyJobSupportText123_m{
+  padding-top: 20px;
+  padding-bottom: 30px;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  letter-spacing: -0.1rem;
+  color: #ffffff !important;
+  font-weight: 400;
+  text-align: center; 
+}
+
+/* 취업지원 - 4,5 번째 제목 - Mobile ver */
+.OnlyJobSupportTitle45_m{
+  margin-bottom: 0px !important;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  letter-spacing: -0.1rem;
+  color: #ffffff !important;
+  font-weight: 600;
+  text-align: center; 
+}
+
+/* 취업지원 - 4,5 번째 내용 - Mobile ver */
+.OnlyJobSupportText45_m{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  letter-spacing: -0.1rem;
+  color: #ffffff !important;
+  font-weight: 400;
+  text-align: center; 
+}
+
+/* 취업지원 - more버튼 - Mobile ver */
+.moreBtn_m{
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  padding-top: 20px;
+  width: 95px;
+  height: 32px;
+  text-align: center; 
+}
+/* 취업지원 - Mobile ver 끝 */
+
+/* 플레이데이터 약속- Mobile ver */
+/* 플레이데이터 약속 - 내용 - Mobile ver */
+.promiseTextWhite_m{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /*20px*/
+  font-size: 1.25rem;
+  /*30px*/
+  line-height: 1.875rem;
+  color: #ffffff;
+  /*Demilight*/
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: -0.1rem;       
+}  
+
+.promiseTextWhite_m strong{
+  /*20px*/
+  font-size: 1.25rem;
+  /*30px*/
+  line-height: 1.875rem;
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: -0.1rem;       
+}  
+/* 플레이데이터 약속- Mobile ver 끝 */
+
+/* 교육 장소 - mobile */
+.InfoTitle_m{
+  padding: 50px 10px 25px 10px;
+  /*35px*/
+  font-size: 2.188rem;
+  /*45px*/    
+  line-height: 2.813rem;
+  color: #333333;
+  /*bold*/
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: -0.15rem;       
+}
+
+.InfoText_m strong{
+  padding: 10px 10px 5px 10px;
+  /*20px*/
+  font-size: 1.25rem;
+  /*30px*/
+  line-height: 1.875rem;
+  color: #444444;
+  text-align: center;
+  letter-spacing: -0.07rem;
+  font-weight: 600;       
+}
+
+.InfoText_m{
+  padding: 5px 10px 5px 10px;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  color: #444444;
+  /*DemiLight*/
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: -0.1rem;       
+}
+
+/* 교육 장소 - mobile 끝 */
+
+
