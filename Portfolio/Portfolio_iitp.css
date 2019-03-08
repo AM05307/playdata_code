@@ -1,0 +1,27 @@
+/*playdata.io - 사용자정의 메뉴에 추가*/
+/* iitp 포트폴리오 페이지 */
+	/* Mobile Device */
+	@media screen and (max-width : 767px) {
+		#iitpPortfolio_m {
+		  display: block;
+		  visibility: visible;
+		}
+
+		#iitpPortfolio_pc {
+		  display: none;  
+		}
+	}
+
+	/* PC */
+	@media all and (min-width:768px) { 
+    #iitpPortfolio_m {
+      display: none;
+    }
+
+    #iitpPortfolio_pc {
+      display: block;
+      visibility: visible;
+    }
+	}
+
+/* iitp 포트폴리오 페이지 끝 */
