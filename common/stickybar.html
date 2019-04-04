@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>고정 상단바 (sticky bar)</title>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<style>
+		* {
+  		padding: 0;
+  		margin: 0;
+		}
+
+		html, body, main {
+		  width: 100%;
+		  height: 100%;
+		}
+
+		header section.banner {
+		  width: 100%;
+		  height: 250px;
+		  background-size: cover;
+		  background-image: url('https://theunboundedspirit.com/wp-content/uploads/2013/12/Be-Free.jpg');
+		  background-position: center;
+		  background-repeat: no-repeat;
+		}
+
+		header section.navigation {
+		  background: black;
+		  text-align: center;
+		}
+		
+		header section.navigation nav {
+		  width: 100%;
+		  background: black;
+		}
+		
+		header section.navigation nav a {
+		  display: inline-block;
+		  text-decoration: none;
+		  padding: 15px;
+		}
+		
+		header section.navigation nav a:first-child {
+		  background: white;
+		}
+		
+		header section.navigation nav a:hover {
+		  background: white;
+		}
+		
+		main article {
+		  padding: 10px;
+		  line-height: 25px;
+		}
+	</style>
+</head>
+
+<body>
+  <header>
+    <section class="banner"></section>
+    <section class="navigation">
+      <nav id="nav">
+        <a href="#a">HOME</a>
+        <a href="#b">ABOUT</a>
+        <a href="#c">CONTACT</a>
+      </nav>
+    </section>
+  </header>
+
+  <main>
+    <article id="a">
+      home Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    </article>
+    <article id="b">
+      about It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+    </article>
+    <article id="c">
+      Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+    </article>
+    <article>
+      contact There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+    </article>
+  </main>
+
+ 	<script>
+//스크롤시 상단바를 고정하는 코드 
+//출처 : https://gist.github.com/moonformeli
+//       https://moonformeli.tistory.com/24
+
+	const nav = document.getElementById('nav');
+	const tmp = nav.cloneNode(true);
+	const rectTop = nav.getBoundingClientRect().top;
+/* visibility 를 hidden 으로 */
+
+	tmp.style.visibility = 'hidden';
+
+	window.addEventListener('scroll', () => {
+	  if (window.pageYOffset > rectTop) {
+	    /* tmp 추가 */
+	    nav.parentNode.appendChild(tmp);
+	    nav.style.position = 'fixed';
+	    nav.style.top = 0;
+	  } else {
+	    /* tmp 제거 */
+	    nav.parentNode.removeChild(tmp);
+	    nav.style.position = 'static';
+	    nav.style.top = '';
+	  }
+	});
+
+//글 내부 목차의 a link 클릭시 부드럽게 이동, 글 본문의 일정높의 위에서 스크롤 멈춤 
+	$(document).ready(function() {
+	        $("a[href^='#']").click(function(event) {
+	            event.preventDefault();
+	            var target = $(this.hash);
+	            var header_height = $('#nav').height();
+	            var offset_top = target.offset().top - header_height;
+	            $('html, body').animate({ scrollTop: offset_top }, 500);
+	        });
+	});    
+
+	</script>
+</body>
+</html>
