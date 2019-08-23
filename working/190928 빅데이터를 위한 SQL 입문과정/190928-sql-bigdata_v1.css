@@ -368,46 +368,6 @@ h2, h4, p {
     padding-bottom: 20px;
 }
 
-
-
-/* 강사 소개 - 전체 박스*/
-.teacher{
-    max-width: 1024px;
-    margin: 0 auto;
-}
-/* 강사소개 */
-.studentProject{
-  padding: 50px 10px 50px 20px;
-}
-
-/* 강사소개 - 강사명 */
-.studentProjectTitle{
-  padding-bottom: 40px;
-}
-
-.studentProjectTitle strong{
-  /*32px*/
-  font-size: 2rem;
-  /*40px*/
-  line-height: 2.5rem;
-  letter-spacing: -0.1rem;
-  font-weight: 600;
-  text-align: left;
-}
-
-/* 강사소개 - 강사이력 */
-.studentProjectText{
-  /*22px*/
-  font-size: 1.375rem;
-  /*32px*/
-  line-height: 2rem;
-  letter-spacing: -0.07rem;
-  font-weight: 400;
-  text-align: left;
-}
-/* 강사소개 끝 */
-
-
 /* 실무 특강 */
 .lectureDivWhole{
     max-width: 514px;
