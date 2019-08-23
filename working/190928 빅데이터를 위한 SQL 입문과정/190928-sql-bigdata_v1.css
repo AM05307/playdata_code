@@ -418,15 +418,6 @@ h2, h4, p {
 }
 /* 수업에서 배우는 내용 */
 
- /* 취업 지원 */
-.moreBtn{
-  margin-top: 20px !important;
-  margin-bottom: 0px !important;
-  width: 120px;
-  height: 40px;
-  text-align: center; 
-}
-
 /* 플레이데이터의 약속 */
 .divTitleWhite{
     /*30px*/
