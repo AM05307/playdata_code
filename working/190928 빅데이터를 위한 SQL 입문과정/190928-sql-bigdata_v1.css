@@ -168,7 +168,7 @@ h2, h4, p {
   max-width: 1024px !important;
 }
 
-/*7개월 몰두*/
+/* 엔코아 교육의 장점 */
 .focusText{
     padding-top: 100px;
     padding-bottom: 50px;
@@ -193,7 +193,11 @@ h2, h4, p {
     text-align: center;
 }
 
-/* 7개월두 - 지원 항목 */
+/* 엔코아 교육의 장점 - 강의소개 */
+.focusNO {
+    text-align: center;
+}
+
 .focusNO strong{
     /*40px*/
     font-size: 2.5rem;
@@ -205,8 +209,9 @@ h2, h4, p {
     text-align: center;
 }
 
+/* 엔코아 교육의 장점 - 강의교재 */
 .focusSub{
-    /*40px*/
+    /*24px*/
     font-size: 1.5rem;
     /*60px*/
     line-height: 3.125rem;
