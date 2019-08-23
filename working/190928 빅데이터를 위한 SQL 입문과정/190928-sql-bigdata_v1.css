@@ -62,133 +62,117 @@
 }
 /*===============================================================*/
 /* 메인 이미지 위 공백 삭제 (워드프레스 기본 css 삭제) */
-#main{
-    padding: 0px !important;
+#main{padding: 0px !important;
 }
 
-h2, p {
+/* 공통요소 */
+/* 공통요소 - 제목*/
+h2{
+  text-align: center;
+}
+
+h2, h4, p {
+  margin-bottom: 0px !important;
+}
+
+.minilineBlack{
+  width: 16px;
+  border: 0;
+  height: 2px;
+  background: #757575;
+  text-align:center; 
+  margin: 0 auto;
+}
+
+.titleColor{
+  padding-top: 100px;
+  padding-bottom: 30px;
+  /*40px*/
+  font-size: 2.5rem;
+  /*45px*/
+  line-height: 2.813rem;
+  letter-spacing : -0.15rem;
+  font-weight: 700;
+  color: #5fa52c;
+  text-align: center;       
+}
+
+.titleColor strong{
+    /*40px*/
+    font-size: 2.5rem;
+    /*45px*/
+    line-height: 2.813rem;
+    letter-spacing : -0.05rem;
+    font-weight: 800;
+    color: #5fa52c;
+    text-align: center;       
+}
+
+.subTitleColor{
     margin-bottom: 0px !important;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    /*26px*/
+    font-size: 1.625rem;
+    /*36px*/
+    line-height: 2.25rem;
+    letter-spacing: -0.15rem;
+    font-weight: 800;
+    color: #000e42;
+    text-align: center; 
 }
 
-    .miniline{
-        width: 16px;
-        border: 0;
-        height: 2px;
-        background: #7b7b7b;
-        text-align:center; 
-        margin: 0 auto;
-    }
-    
-    .minilineBlack{
-        width: 16px;
-        border: 0;
-        height: 2px;
-        background: #757575;
-        text-align:center; 
-        margin: 0 auto;
-    }
-/*-----------여기부터 새 css----------*/
+.subTitleColor strong{
+    /*26px*/
+    font-size: 1.625rem;
+    /*36px*/
+    line-height: 2.25rem;
+    letter-spacing: -0.07rem;
+    font-weight: 800;
+    color: #000e42;
+    text-align: center; 
+}
+
+/* 공통 - 본문 */
+.mainText{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /*22px*/
+    font-size: 1.375rem;
+    /*32px*/
+    line-height: 2rem;
+    letter-spacing: -0.07rem;
+    /*Regular*/
+    font-weight: 400;
+    color: #444444;
+    text-align: center;
+}
+
+.mainText strong{
+    /*22px*/
+    font-size: 1.375rem;
+    /*32px*/
+    line-height: 2rem;
+    letter-spacing: -0.07rem;
+    /*Medium*/
+    font-weight: 600;
+    color: #444444;
+    text-align: center;
+}
+
+
+
+/* 수업에서 배우는 내용 너비 지정 */
 .w1024{
-        max-width: 1024px !important;
-        margin: 0 auto;
-    }
+  max-width: 1024px !important;
+  margin: 0 auto;
+}
 
 .w1024only{
-        max-width: 1024px !important;
-    }
+  max-width: 1024px !important;
+}
 
-/*공통 - 제목*/
-    h2{
-        text-align: center;
-    }
 
-    h4{
-        margin-bottom: 0px !important;
-    }
-    .alignLeft{
-        text-align: left;
-    }
-
-    .alignCenter{
-        text-align: center;
-    }
-
-    .titleColor{
-        padding-top: 100px;
-        padding-bottom: 30px;
-        /*40px*/
-        font-size: 2.5rem;
-        /*45px*/
-        line-height: 2.813rem;
-        letter-spacing : -0.15rem;
-        /*Bold*/
-        font-weight: 700;
-        color: #5fa52c;
-        text-align: center;       
-    }
-    
-    .titleColor strong{
-        /*40px*/
-        font-size: 2.5rem;
-        /*45px*/
-        line-height: 2.813rem;
-        letter-spacing : -0.05rem;
-        /*Bold*/
-        font-weight: 800;
-        color: #5fa52c;
-        text-align: center;       
-    }
-
-    .subTitleColor{
-        margin-bottom: 0px !important;
-        padding-top: 20px;
-        padding-bottom: 30px;
-        /*26px*/
-        font-size: 1.625rem;
-        /*36px*/
-        line-height: 2.25rem;
-        letter-spacing: -0.15rem;
-        font-weight: 800;
-        color: #000e42;
-        text-align: center; 
-    }
-
-    .subTitleColor strong{
-        /*26px*/
-        font-size: 1.625rem;
-        /*36px*/
-        line-height: 2.25rem;
-        letter-spacing: -0.07rem;
-        font-weight: 800;
-        color: #000e42;
-        text-align: center; 
-    }
-/* 공통 - 본문 */
-    .mainText{
-        padding-top: 20px;
-        padding-bottom: 20px;
-        /*22px*/
-        font-size: 1.375rem;
-        /*32px*/
-        line-height: 2rem;
-        letter-spacing: -0.07rem;
-        /*Regular*/
-        font-weight: 400;
-        color: #444444;
-        text-align: center;
-    }
-
-    .mainText strong{
-        /*22px*/
-        font-size: 1.375rem;
-        /*32px*/
-        line-height: 2rem;
-        letter-spacing: -0.07rem;
-        /*Medium*/
-        font-weight: 600;
-        color: #444444;
-        text-align: center;
-    }
 /* 진출분야 - 설명 */
     .explainText{
         padding-top: 20px;
