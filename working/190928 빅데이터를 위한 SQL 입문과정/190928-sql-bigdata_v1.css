@@ -123,6 +123,15 @@ h2, h4, p {
   color: #000e42;
   text-align: center; 
 }
+/* 공통 - 부제목 밑줄 */
+.minilineBlack{
+    width: 16px;
+    border: 0;
+    height: 2px;
+    background: #333333;
+    text-align:center; 
+    margin: 0 auto;
+}
 
 /* 공통 - 본문 */
 .mainText{
@@ -133,7 +142,6 @@ h2, h4, p {
   /*32px*/
   line-height: 2rem;
   letter-spacing: -0.07rem;
-  /*Regular*/
   font-weight: 400;
   color: #444444;
   text-align: center;
@@ -145,7 +153,6 @@ h2, h4, p {
   /*32px*/
   line-height: 2rem;
   letter-spacing: -0.07rem;
-  /*Medium*/
   font-weight: 600;
   color: #444444;
   text-align: center;
@@ -160,59 +167,6 @@ h2, h4, p {
 .w1024only{
   max-width: 1024px !important;
 }
-
-
-/* 진출분야 - 설명 */
-    .explainText{
-        padding-top: 20px;
-        padding-bottom: 20px;
-        /*22px*/
-        font-size: 1.375rem;
-        /*32px*/
-        line-height: 2rem;
-        letter-spacing: -0.1rem;
-        /*Demilight*/
-        font-weight: 400;
-        color: #444444;
-        text-align: center;
-    }
-
-    .minilineBlack{
-        width: 16px;
-        border: 0;
-        height: 2px;
-        background: #333333;
-        text-align:center; 
-        margin: 0 auto;
-    }
-
-    .subText{
-        padding-top: 20px;
-        padding-bottom: 20px;
-        padding-left: 20px;
-        /*20px*/
-        font-size: 1.25rem;
-        /*30px*/
-        line-height: 1.875rem;
-        letter-spacing: -0.07rem;
-        font-weight: 400;
-        color: #555555;
-        text-align: left;
-    }
-
-/* qna */
-    .qnaText{
-        padding-top: 20px;
-        padding-bottom: 20px;
-        /*22px*/
-        font-size: 1.375rem;
-        /*32px*/
-        line-height: 2rem;
-        letter-spacing: -0.07rem;
-        font-weight: 400;
-        color: #444444;
-        text-align: center;
-    }
 
 /*7개월 몰두*/
 .focusText{
