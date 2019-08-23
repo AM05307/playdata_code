@@ -193,29 +193,7 @@ h2, h4, p {
     text-align: center;
 }
 
-.weight500{
-    /*40px*/
-    font-size: 2.5rem;
-    /*60px*/
-    line-height: 3.75rem;
-    letter-spacing: -0.1rem;
-    font-weight: 600;
-    color: #ffffff;
-    text-align: center;   
-}
-
-/* 6개월 몯두 - 지원 항목 */
-.focusNO{
-    /*40px*/
-    font-size: 2.5rem;
-    /*60px*/
-    line-height: 3.75rem;
-    letter-spacing: -0.1rem;
-    font-weight: 500;
-    color: #D1EDBC;
-    text-align: center;
-}
-
+/* 7개월두 - 지원 항목 */
 .focusNO strong{
     /*40px*/
     font-size: 2.5rem;
