@@ -377,7 +377,6 @@ h2, h4, p {
             margin-left: 87%;
         }
     }
-
    
 /* 토글 화살표 아이콘 margin left 값 조정 끝 */
 
@@ -781,6 +780,51 @@ h2, h4, p {
   }
 /* 엔코아 장점 끝 */
 
+/* 커리큘럼 - 표 - mobile */
+#cu3_m #point table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}  
+
+#cu3_m th{
+  border-top: 5px solid #222222;
+  border-bottom: 5px solid #222222;
+  text-align: center;
+  color: #222222;
+  font-size: 16px;
+}
+
+#cu3_m #point td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #222222;
+  color: #222222;
+}
+
+#cu3_m .pointSubject {
+  margin-right: 4px;
+  margin-left: 4px;
+  font-size: 14px;
+  color: #222222;
+  font-weight: 700;
+  text-align: center;
+}
+
+#cu3_m .pointText {
+  margin-left: 15px;
+  margin-bottom: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #222222;
+  font-weight: 500;
+}
+/* 커리큘럼 - 표 - mobile 끝*/
+
 /* 토글메뉴 - Mobile ver */
 .curriculum_m{
     overflow: hidden;
@@ -898,78 +942,8 @@ h2, h4, p {
   font-size: 1.25rem;
   line-height: 1.875rem;
   color: #444444;
-  /*DemiLight*/
   font-weight: 400;
   text-align: center;
   letter-spacing: -0.1rem;       
 }
 /* 교육 장소, 교육일정 및 문의 안내 - mobile 끝 */
-
-
-/* mobile 190812*/
-/* 커리큘럼 - 표 (모바일) */
-#cu3_m #point table {
-  width: 100%;
-  table-layout: fixed;
-  border-collapse: collapse;
-}  
-
-#cu3_m th{
-  border-top: 5px solid #222222;
-  border-bottom: 5px solid #222222;
-  text-align: center;
-  color: #222222;
-  font-size: 16px;
-}
-
-#cu3_m #point td {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-left: none;
-  border-right: none;
-  border-bottom: 1px solid #222222;
-  color: #222222;
-}
-
-#cu3_m .pointSubject {
-  margin-right: 4px;
-  margin-left: 4px;
-  font-size: 14px;
-  color: #222222;
-  font-weight: 700;
-  text-align: center;
-}
-
-
-#cu3_m .pointText {
-  margin-left: 15px;
-  margin-bottom: 0px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  font-size: 14px;
-  line-height: 20px;
-  color: #222222;
-  font-weight: 500;
-}
-/* 커리큘럼 - 표 (모바일) 끝*/
-
-/* 강사소개 - Mobile ver */
-.teacherSubTitle{
-  padding-bottom : 20px;
-  font-size: 1.5rem;
-  line-height: 1.875rem;
-  color: #444444;
-  font-weight: 700;
-  text-align: center;
-  letter-spacing: -0.02rem; 
-}
-
-.teacherSubText{
-  font-size: 1.25rem;
-  line-height: 1.875rem;
-  color: #444444;
-  font-weight: 500;
-  text-align: left;
-  letter-spacing: -0.15rem; 
-}
-/* 강사소개 - Mobile ver 끝 */
