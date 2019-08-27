@@ -54,112 +54,113 @@
 /* caldera form css */
 /* 칼데라폼 제출하기 버튼 */
 #fld_7908577_2{
-  width: 100%;
+    width: 100%;
 }
 
 /* 칼데라폼 안내문구 */
 #fld_7263964Label{
-  width: 100%;
+    width: 100%;
 }
 
 /*===============================================================*/
 /* 메인 이미지 위 공백 삭제 (워드프레스 기본 css 삭제) */
 #main{
-  padding: 0px !important;
+    padding: 0px !important;
 }
 
-/* 공통요소 */
-/* 공통요소 - 제목*/
-h2{
-  text-align: center;
-}
+
+/*공통 - 제목*/
+    h2{
+        text-align: center;
+    }
 
 h2, h4, p {
   margin-bottom: 0px !important;
 }
 
-.titleColor{
-  padding-top: 100px;
-  padding-bottom: 30px;
-  /*40px*/
-  font-size: 2.5rem;
-  /*45px*/
-  line-height: 2.813rem;
-  letter-spacing : -0.15rem;
-  font-weight: 700;
-  color: #5fa52c;
-  text-align: center;       
-}
+    .titleColor{
+        padding-top: 100px;
+        padding-bottom: 30px;
+        /*40px*/
+        font-size: 2.5rem;
+        /*45px*/
+        line-height: 2.813rem;
+        letter-spacing : -0.15rem;
+        font-weight: 700;
+        color: #5fa52c;
+        text-align: center;       
+    }
+    
+    .titleColor strong{
+        /*40px*/
+        font-size: 2.5rem;
+        /*45px*/
+        line-height: 2.813rem;
+        letter-spacing : -0.05rem;
+        font-weight: 800;
+        color: #5fa52c;
+        text-align: center;       
+    }
 
-.titleColor strong{
-  /*40px*/
-  font-size: 2.5rem;
-  /*45px*/
-  line-height: 2.813rem;
-  letter-spacing : -0.05rem;
-  font-weight: 800;
-  color: #5fa52c;
-  text-align: center;       
-}
+    .subTitleColor{
+        margin-bottom: 0px !important;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        /*26px*/
+        font-size: 1.625rem;
+        /*36px*/
+        line-height: 2.25rem;
+        letter-spacing: -0.15rem;
+        font-weight: 800;
+        color: #000e42;
+        text-align: center; 
+    }
 
-.subTitleColor{
-  margin-bottom: 0px !important;
-  padding-top: 20px;
-  padding-bottom: 30px;
-  /*26px*/
-  font-size: 1.625rem;
-  /*36px*/
-  line-height: 2.25rem;
-  letter-spacing: -0.15rem;
-  font-weight: 800;
-  color: #000e42;
-  text-align: center; 
-}
-
-.subTitleColor strong{
-  /*26px*/
-  font-size: 1.625rem;
-  /*36px*/
-  line-height: 2.25rem;
-  letter-spacing: -0.07rem;
-  font-weight: 800;
-  color: #000e42;
-  text-align: center; 
-}
-/* 공통 - 부제목 밑줄 */
-.minilineBlack{
-    width: 16px;
-    border: 0;
-    height: 2px;
-    background: #333333;
-    text-align:center; 
-    margin: 0 auto;
-}
-
+    .subTitleColor strong{
+        /*26px*/
+        font-size: 1.625rem;
+        /*36px*/
+        line-height: 2.25rem;
+        letter-spacing: -0.07rem;
+        font-weight: 800;
+        color: #000e42;
+        text-align: center; 
+    }
+    
+    /* 공통 - 부제목 밑줄 */
+        .minilineBlack{
+        width: 16px;
+        border: 0;
+        height: 2px;
+        background: #333333;
+        text-align:center; 
+        margin: 0 auto;
+    }
+    
 /* 공통 - 본문 */
-.mainText{
-  padding-top: 20px;
-  padding-bottom: 20px;
-  /*22px*/
-  font-size: 1.375rem;
-  /*32px*/
-  line-height: 2rem;
-  letter-spacing: -0.07rem;
-  font-weight: 400;
-  color: #444444;
-  text-align: center;
-}
+    .mainText{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        /*22px*/
+        font-size: 1.375rem;
+        /*32px*/
+        line-height: 2rem;
+        letter-spacing: -0.07rem;
+        font-weight: 400;
+        color: #444444;
+        text-align: center;
+    }
 
-.mainText strong{
-  /*22px*/
-  font-size: 1.375rem;
-  /*32px*/
-  line-height: 2rem;
-  letter-spacing: -0.07rem;
-  font-weight: 600;
-  color: #444444;
-  text-align: center;
-}
+    .mainText strong{
+        /*22px*/
+        font-size: 1.375rem;
+        /*32px*/
+        line-height: 2rem;
+        letter-spacing: -0.07rem;
+        font-weight: 600;
+        color: #444444;
+        text-align: center;
+    }
 
 /* 엔코아 교육의 장점 */
 .focusText{
@@ -215,55 +216,64 @@ h2, h4, p {
 }
 /* 엔코아 교육의 장점 끝 */
 
-/* 수업에서 배우는 내용 너비 지정 */
+/* 실무 특강 */
 .w1024{
   max-width: 1024px !important;
   margin: 0 auto;
 }
-  
-.w1024only{
-  max-width: 1024px !important;
+
+.lectureDivWhole{
+    max-width: 514px;
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    height: 170px;
 }
-  /* 수업에서 배우는 내용 */
-  .lectureDivWhole34{
-      position: relative;
-      padding-top: 25px;
-      padding-bottom: 40px;
-      height: 185px;
-  }
-  
-  .lectureDivPart34{
-      padding-top: 20px;
-      padding-bottom: 20px;
-      position: absolute;
-      width: 32rem;
-      text-align: center;
-  }
-  
-  .lectureText34 strong{ 
-      padding-top: 10px;
-      padding-bottom: 10px;
-      /*22px*/
-      font-size: 1.375rem;
-      /*32px*/
-      line-height: 2rem;
-      letter-spacing: -0.05rem;
-      font-weight: 600;
-      text-align: center;
-  }
-  
-  .lectureText34{
-      padding-top: 20px;
-      padding-bottom: 10px;
-      /*22px*/
-      font-size: 1.375rem;
-      /*32px*/
-      line-height: 2rem;
-      letter-spacing: -0.07rem;
-      font-weight: 400;
-      text-align: center;
-  }
-  /* 수업에서 배우는 내용 끝 */
+
+/* 실무 특강 - 전체박스 3,4번째 */
+.lectureDivWhole34{
+    position: relative;
+    padding-top: 25px;
+    padding-bottom: 40px;
+    height: 185px;
+}
+
+
+/* 실무 특강 - 박스 3,4번째 */
+.lectureDivPart34{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: absolute;
+    width: 32rem;
+    text-align: center;
+}
+
+/* 실무 특강 - 특강 제목 - 박스 3,4번째 */
+.lectureText34 strong{ 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /*22px*/
+    font-size: 1.375rem;
+    /*32px*/
+    line-height: 2rem;
+    letter-spacing: -0.05rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* 실무 특강 - 특강 내용 - 박스 3,4번째 */
+.lectureText34{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    /*22px*/
+    font-size: 1.375rem;
+    /*32px*/
+    line-height: 2rem;
+    letter-spacing: -0.07rem;
+    font-weight: 400;
+    text-align: center;
+}
+
 
 /* 커리큘럼 */
 /* 커리큘럼 테이블 */
@@ -299,10 +309,10 @@ h2, h4, p {
   color: #222222;
   font-weight: 700;
 }
-
+    
 #cu3 #tdWidth{
   width: 35%;
-}
+}    
     
 #cu3 .tdCenter{
   text-align: center;
@@ -316,7 +326,7 @@ h2, h4, p {
   color: #222222;
   font-weight: 500;
 }
-/* 커리큘럼 테이블 끝 */   
+/* 커리큘럼 테이블 끝 */
 
 /* 토글메뉴 */
 /* 토글메뉴 - 수강료 납부안내 */
@@ -326,21 +336,6 @@ h2, h4, p {
   border-collapse: collapse;
 }  
 
-#cu3 .curriculumSubject{
-  margin: 0px;
-  cursor: pointer;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 50px;
-  /*22px*/
-  font-size: 1.5rem;
-  /*30px*/
-  line-height: 1.875rem;
-  letter-spacing: -0.03rem;
-  font-weight: 800;
-  text-align: left;
-}
-    
 #cu3 .curriculumText {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -388,7 +383,7 @@ h2, h4, p {
             margin-left: 87%;
         }
     }
-   
+
 /* 토글 화살표 아이콘 margin left 값 조정 끝 */
 
 /* 검정색 화살표 이미지 */
@@ -410,19 +405,35 @@ h2, h4, p {
 }
 /* 토글메뉴 : 화살표 끝 */
 /* 토글메뉴 : 수강료 납부 안내 끝*/
-
-/* 커리큘럼 내용 너비 */
-#cu3 #tdWidth{
-  width: 43%;
-}    
-
 .curriculum{
     overflow: hidden;
     margin-bottom: 10px;
 }
+.curriculumSubject{
+    margin: 0px;
+    cursor: pointer;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    /*22px*/
+    font-size: 1.5rem;
+    /*30px*/
+    line-height: 1.875rem;
+    letter-spacing: -0.03rem;
+    font-weight: 800;
+    text-align: left;
+}
 
 .curriculumSubject p{
     margin-bottom: 0px !important;
+}
+
+.curriculum.open .curriculumSubject::before{
+    display: none;
+}
+.curriculum.open .curriculumSubject::after{
+    display: block;
+    transform: translate3d(0, -100%, 0);
 }
 
 .curriculumContentContainer {
@@ -550,17 +561,6 @@ h2, h4, p {
         margin: 0 auto;
     }
 /* 교육과정 일정 및 문의 안내 끝 */
-
-/* 칼데라폼 안내문구 */
-#fld_7263964Label{
-  width: 100%;
-}
-  
-/* 칼데라폼 문의하기 버튼 */
-#fld_7908577_2{
-  width: 100%;
-}
-
 /* 칼데라폼 - 신청서 양식 다운로드 */
 .calderaFormDownload{
   margin: 10px;
@@ -574,8 +574,8 @@ h2, h4, p {
 }
 
 /* 칼데라폼 - 신청서 양식 다운로드 끝 */
-/*===============================================================*/
 
+/*===============================================================*/
 
 /* 칼데라폼 미디어쿼리 */
   /* Mobile Device */ 
@@ -614,7 +614,7 @@ h2, h4, p {
         background-color: #008996;
         color: #ffffff; 
     }
-   
+    
     #cal_mainTitle_pc{
         font-weight: 700;
         font-size: 30px;
@@ -640,11 +640,11 @@ h2, h4, p {
     #calderaFormDownloadWrapper_m{
       display: none;
     }
-  }
-  /* PC 미디어 쿼리 @media all and (min-width:768px) 끝 */
+}
+/* PC 미디어 쿼리 @media all and (min-width:768px) 끝 */
 /* 칼데라폼 미디어쿼리 끝 */
 
-/*------------- mobile -------------*/
+/*-------------mobile-------------*/
 /*caldera form css */
 /* 칼데라폼 - 신청서 양식 다운로드 */
 .calderaFormDownload_m{
@@ -661,51 +661,50 @@ h2, h4, p {
 /* caldera form css 끝 */
 
 /* 공통 - 소제목 밑줄 */
-  .miniline_m{
-    width: 16px;
-    border: 0;
-    height: 2px;
-    background: #7b7b7b;
-    text-align:center; 
-    margin: 0 auto;
-  }
+    .miniline_m{
+      width: 16px;
+      border: 0;
+      height: 2px;
+      background: #7b7b7b;
+      text-align:center; 
+      margin: 0 auto;
+    }
 
 /*공통 - 제목*/
-  h2{
-    text-align: center;
-  }
+    h2{
+        text-align: center;
+    }
 
-  .divTitle_m{
-    padding: 50px 10px 15px 10px;
-    /*35px*/
-    font-size: 2.188rem;
-    /*45px*/    
-    line-height: 2.813rem;
-    color: #5fa52c;
-    font-weight: 700;
-    text-align: center;
-    letter-spacing: -0.15rem;       
-  }
+    .divTitle_m{
+        padding: 50px 10px 15px 10px;
+        /*35px*/
+        font-size: 2.188rem;
+        /*45px*/    
+        line-height: 2.813rem;
+        color: #5fa52c;
+        font-weight: 700;
+        text-align: center;
+        letter-spacing: -0.15rem;       
+    }
 
-  .divTitle_m strong{ 
-    font-size: 2.188rem;
-    line-height: 2.813rem;
-    color: #5fa52c;
-    /*black*/
-    font-weight: 800;
-    text-align: center;
-    letter-spacing: -0.1rem; 
-  }
+    .divTitle_m strong{ 
+        font-size: 2.188rem;
+        line-height: 2.813rem;
+        color: #5fa52c;
+        font-weight: 800;
+        text-align: center;
+        letter-spacing: -0.1rem; 
+    }
 
-  .divSubTitle_m{
-    padding: 10px 10px 15px 10px;
-    font-size: 1.25rem;
-    line-height: 1.875rem;
-    color: #444444;
-    font-weight: 400;
-    text-align: center;
-    letter-spacing: -0.1rem;       
-  }
+    .divSubTitle_m{
+        padding: 10px 10px 15px 10px;
+        font-size: 1.25rem;
+        line-height: 1.875rem;
+        color: #444444;
+        font-weight: 400;
+        text-align: center;
+        letter-spacing: -0.1rem;       
+    }
 
 /*추천대상*/
 /*추천대상 - 박스 - 소제목*/
@@ -878,7 +877,7 @@ h2, h4, p {
             margin-left: 89%;
         }
     }
- 
+
 /* 토글메뉴 - 검은색화살표 아이콘 margin left 값 조정 끝 */
 
 /* 토글메뉴 - 검정색 화살표*/
@@ -905,7 +904,7 @@ h2, h4, p {
     padding: 0;
 }
 
-/* 토글메뉴 - 설명칸 - Mobile ver */
+/* 토글메뉴 - 설명칸 text - Mobile ver */
 .curriculumContent_m{
     padding: 25px 40px 25px 25px;
     background-color: #dddddd;
@@ -921,7 +920,7 @@ h2, h4, p {
     letter-spacing: -0.1rem;
     line-height: 1.875rem; 
 }
-/* 토글메뉴 - Mobile ver 끝 */
+/* 토글메뉴 - Mobile ver 끝 */ 
 
 /* 교육 장소, 교육일정 및 문의 안내 - mobile */
 .InfoTitle_m{
@@ -958,3 +957,9 @@ h2, h4, p {
   letter-spacing: -0.1rem;       
 }
 /* 교육 장소, 교육일정 및 문의 안내 - mobile 끝 */
+
+    
+
+
+
+
