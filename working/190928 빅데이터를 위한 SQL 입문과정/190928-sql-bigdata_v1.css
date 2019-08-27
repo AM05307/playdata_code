@@ -646,6 +646,10 @@ h2, h4, p {
 
 /*추천대상*/
 /*추천대상 - 박스 - 소제목*/
+  .boxSubTitle_m{
+    text-align: center;
+  }
+
   .boxSubTitle_m strong{
     padding-top: 20px;
     padding-bottom: 10px;
@@ -653,7 +657,6 @@ h2, h4, p {
     letter-spacing: -0.07rem;
     color: #444444;
     font-weight: 700;
-    text-align: center;
   }
 
 /* 추천대상 끝 */
@@ -668,10 +671,9 @@ h2, h4, p {
       font-weight: 400;
       text-align: center;
   }
+/*교육 일정 및 문의 안내 끝 */
 
-
-
-/* 7개월 몰두 */
+/* 엔코아 장점 */
 /* 7개월 몰두 - 제목*/
   .divTitleWhite_m{
       padding: 50px 10px 10px 10px;
