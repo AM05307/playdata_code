@@ -559,7 +559,6 @@ h2, h4, p {
         letter-spacing: -0.2rem;
         color: #444444;
     }
-    /* PC 미디어 쿼리 @media all and (min-width:768px) 끝 */
 
     /* "상담신청서" */
     #cal_subject_pc{
@@ -579,41 +578,11 @@ h2, h4, p {
       display: none;
     }
   }
+  /* PC 미디어 쿼리 @media all and (min-width:768px) 끝 */
 /* 칼데라폼 미디어쿼리 끝 */
 
-/*------------- mobile css -------------*/
+/*------------- mobile -------------*/
 /*caldera form css */
-button.caldera-forms-modal {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  appearance: none;
-  box-shadow: none;
-  border: none;
-  height: 100px;
-  width: 100%;
-  color: #ffffff;
-  background-color: #280fb2 !important;
-  font-size: 2rem;
-  text-shadow: none;
-}
-
-/* caldera form css 끝 */
-
-/* 칼데라폼 버튼 이미지 */
-#applyBtn_m{
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-    width: 200px !important;
-    max-width: 200px !important;
-}
-
-#applyBtn1_m{
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-    width: 200px !important;
-    max-width: 200px !important;
-}
-
 /* 칼데라폼 - 신청서 양식 다운로드 */
 .calderaFormDownload_m{
   margin-bottom: 10px; 
@@ -626,6 +595,7 @@ button.caldera-forms-modal {
   color: #83848A;
 }
 /* 칼데라폼 - 신청서 양식 다운로드 끝 */
+/* caldera form css 끝 */
 
 /* 공통 - 소제목 밑줄 */
     .miniline_m{
