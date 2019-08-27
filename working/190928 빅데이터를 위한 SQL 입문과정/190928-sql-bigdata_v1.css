@@ -644,30 +644,21 @@ h2, h4, p {
     letter-spacing: -0.1rem;       
   }
 
-/*취업처*/
-
-/*취업처 - 박스 - 소제목*/
-  .boxSubTitle_m {
-      padding-top: 20px;
-      padding-bottom: 10px;
-      font-size: 1.25rem;
-      letter-spacing: -0.1rem;
-      color: #444444;
-      font-weight: 400;
-      text-align: center;
-  }
-
+/*추천대상*/
+/*추천대상 - 박스 - 소제목*/
   .boxSubTitle_m strong{
-      padding-top: 20px;
-      padding-bottom: 10px;
-      font-size: 1.25rem;
-      letter-spacing: -0.07rem;
-      color: #444444;
-      font-weight: 700;
-      text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 1.25rem;
+    letter-spacing: -0.07rem;
+    color: #444444;
+    font-weight: 700;
+    text-align: center;
   }
 
-/*취업처 - 박스 - 내용*/
+/* 추천대상 끝 */
+
+/*교육 일정 및 문의 안내*/
   .boxContent_m{
       padding-top: 10px;
       padding-bottom: 20px;
@@ -678,10 +669,7 @@ h2, h4, p {
       text-align: center;
   }
 
-  .boxALink{
-    text-decoration: none;
-  }
-/* 취업처 끝 */
+
 
 /* 7개월 몰두 */
 /* 7개월 몰두 - 제목*/
