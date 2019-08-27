@@ -815,33 +815,6 @@ h2, h4, p {
 }
 /* 토글메뉴 - Mobile ver 끝 */
 
-/* 플레이데이터 약속- Mobile ver */
-/* 플레이데이터 약속 - 내용 - Mobile ver */
-.promiseTextWhite_m{
-  padding-top: 15px;
-  padding-bottom: 10px;
-  /*20px*/
-  font-size: 1.25rem;
-  /*30px*/
-  line-height: 1.875rem;
-  color: #ffffff;
-  /*Demilight*/
-  font-weight: 400;
-  text-align: center;
-  letter-spacing: -0.1rem;       
-}  
-
-.promiseTextWhite_m strong{
-  /*20px*/
-  font-size: 1.25rem;
-  /*30px*/
-  line-height: 1.875rem;
-  color: #ffffff;
-  text-align: center;
-  letter-spacing: -0.1rem;       
-}  
-/* 플레이데이터 약속- Mobile ver 끝 */
-
 /* 교육 장소 - mobile */
 .InfoTitle_m{
   padding: 50px 10px 25px 10px;
@@ -933,8 +906,7 @@ h2, h4, p {
   width: 35%;
 }
 
-/* 커리큘럼 테이블 끝 */
-    
+/* 커리큘럼 테이블 끝 */   
 
 
 /* mobile 190812*/
@@ -983,8 +955,6 @@ h2, h4, p {
   font-weight: 500;
 }
 /* 커리큘럼 - 표 (모바일) 끝*/
-
-
 
 /* 강사소개 - Mobile ver */
 .teacherSubTitle{
