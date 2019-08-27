@@ -551,20 +551,14 @@ h2, h4, p {
         background-color: #008996;
         color: #ffffff; 
     }
-
-    #cal_ready{
-        font-size: 1.5rem;
-        line-height: 1.7rem;
-        color: #555555;
-    }
-    
+   
     #cal_mainTitle_pc{
         font-weight: 700;
         font-size: 30px;
         line-height: 40px;
         letter-spacing: -0.2rem;
         color: #444444;
-}
+    }
     /* "상담신청서" */
     #cal_subject_pc{
         margin-bottom: 4rem;
@@ -824,7 +818,6 @@ button.caldera-forms-modal {
     text-align: left;
     letter-spacing: -0.05rem;
 }
-
 .curriculumSubject_m strong{
     margin: 0px;
     cursor: pointer;
