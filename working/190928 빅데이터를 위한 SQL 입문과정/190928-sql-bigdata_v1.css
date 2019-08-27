@@ -816,16 +816,6 @@ h2, h4, p {
 /* 토글메뉴 - Mobile ver 끝 */ 
 
 /* 실무특강 - Mobile ver */
-/* 공통 - 소제목 밑줄 */
-.miniline_white{
-    width: 16px;
-    border: 0;
-    height: 2px;
-    background: #ffffff;
-    text-align:center; 
-    margin: 0 auto;
-}
-
 /* 실무특강 - 박스 - Mobile ver */
 .divH450_m{
   position: relative;
