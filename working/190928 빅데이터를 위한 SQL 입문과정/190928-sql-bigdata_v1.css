@@ -815,7 +815,7 @@ h2, h4, p {
 }
 /* 토글메뉴 - Mobile ver 끝 */
 
-/* 교육 장소 - mobile */
+/* 교육 장소, 교육일정 및 문의 안내 - mobile */
 .InfoTitle_m{
   padding: 50px 10px 25px 10px;
   /*35px*/
@@ -823,7 +823,6 @@ h2, h4, p {
   /*45px*/    
   line-height: 2.813rem;
   color: #333333;
-  /*bold*/
   font-weight: 700;
   text-align: center;
   letter-spacing: -0.15rem;       
@@ -851,7 +850,7 @@ h2, h4, p {
   text-align: center;
   letter-spacing: -0.1rem;       
 }
-/* 교육 장소 - mobile 끝 */
+/* 교육 장소, 교육일정 및 문의 안내 - mobile 끝 */
 
 
 /* 커리큘럼 */
@@ -907,7 +906,6 @@ h2, h4, p {
 }
 
 /* 커리큘럼 테이블 끝 */   
-
 
 /* mobile 190812*/
 /* 커리큘럼 - 표 (모바일) */
