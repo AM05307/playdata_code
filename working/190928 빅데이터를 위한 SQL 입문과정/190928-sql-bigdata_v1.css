@@ -728,12 +728,12 @@ h2, h4, p {
   }
 /* 엔코아 장점 끝 */
 
-/* 커리큘럼 - Mobile ver */
+/* 토글메뉴 - Mobile ver */
 .curriculum_m{
     overflow: hidden;
     margin-bottom: 10px;
 }
-/* 커리큘럼 - Step 제목 - Mobile ver */
+/* 토글메뉴 제목 - Mobile ver */
 .curriculumSubject_m {
     margin: 0px;
     cursor: pointer;
@@ -745,24 +745,8 @@ h2, h4, p {
     text-align: left;
     letter-spacing: -0.05rem;
 }
-.curriculumSubject_m strong{
-    margin: 0px;
-    cursor: pointer;
-    position: relative;
-    /*20px*/
-    font-size: 1.25rem;
-    font-weight: 600 !important; 
-    text-align: left;
-}
 
-.curriculumSubject_m em{
-    /*20px*/
-    font-size: 1.25rem;
-    font-weight: 900 !important; 
-    text-align: left;
-}
-
-/*검은색 화살표*/
+/* 토글메뉴 - 검은색 화살표*/
 .curriculumSubject_m::before, .curriculumSubject_m::after{
     position: absolute;
     content: "";
@@ -774,7 +758,7 @@ h2, h4, p {
     background-repeat: no-repeat;
    }
    
-/* 토글 화살표 아이콘 margin left 값 조정 */
+/* 토글메뉴 - 검은색 화살표 아이콘 margin left 값 조정 */
     @media screen and (max-width : 700px) and (min-width : 500px) {
         .curriculumSubject_m::before, .curriculumSubject_m::after{
             margin-left: 85%;
@@ -787,9 +771,9 @@ h2, h4, p {
         }
     }
  
-/* 토글 화살표 아이콘 margin left 값 조정 끝 */
+/* 토글메뉴 - 검은색화살표 아이콘 margin left 값 조정 끝 */
 
-/*검정색 화살표*/
+/* 토글메뉴 - 검정색 화살표*/
 .curriculumSubject_m::before{
     display: inline-block;
     background-image: url("http://playdata.io/academy/wp-content/uploads/2019/04/arrow2_down_mobile15x15.png");
@@ -813,34 +797,14 @@ h2, h4, p {
     padding: 0;
 }
 
-/* 커리큘럼 - 설명칸 - Mobile ver */
+/* 토글메뉴 - 설명칸 - Mobile ver */
 .curriculumContent_m{
     padding: 25px 40px 25px 25px;
     background-color: #dddddd;
     color: #444444;
 }
 
-/* 커리큘럼 - 과목 설명 text - Mobile ver */
-.explainText_m{
-    /*16px*/
-    padding-bottom: 25px !important;
-    font-size: 1rem;
-    font-weight: 500;
-    letter-spacing: -0.1rem; 
-    line-height: 1.5rem;
-    color: #444444;    
-}
-
-/* 커리큘럼 - 과목 배우는 챕터 text - Mobile ver */
-.tableText_m strong{
-    margin-bottom: 0px !important;
-    text-align: left;
-    font-size: 1.25rem;
-    font-weight: 600 !important;    
-    letter-spacing: -0.1rem;
-    line-height: 1.875rem;     
-}
-
+/* 토글메뉴 - 설명칸 text - Mobile ver */
 .tableText_m{
     margin-bottom: 0px !important;
     text-align: left;
@@ -850,7 +814,7 @@ h2, h4, p {
     line-height: 1.875rem; 
 }
 
-/* 커리큘럼 - Mobile ver */ 
+/* 토글메뉴 - Mobile ver 끝 */ 
 
 
 /* 강사소개 - Mobile ver */
