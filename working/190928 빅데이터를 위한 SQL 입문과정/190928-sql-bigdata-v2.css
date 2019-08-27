@@ -28,15 +28,15 @@
 /* 마우스 드래그 했을때의 선택영역 색상 변경 */
 ::selection{
   background:#008996;
-  color:#fff;
+  color:#ffffff;
 }
 ::-moz-selection{
   background:#008996;
-  color:#fff;
+  color:#ffffff;
 }
 ::-webkit-selection{
   background:#008996;
-  color:#fff;
+  color:#ffffff;
 } 
 
 /* 페이지에서 스크롤상태 표시하는 상단바 - Progress Indicator */
@@ -197,7 +197,7 @@ h2, h4, p {
   line-height: 3.75rem;
   letter-spacing: -0.1rem;
   font-weight: 700;
-  color: #D1EDBC;
+  color: #d1edbC;
   text-align: center;
 }
 
@@ -209,7 +209,7 @@ h2, h4, p {
   line-height: 3.125rem;
   letter-spacing: -0.1rem;
   font-weight: 500;
-  color: #D1EDBC;
+  color: #d1edbC;
   text-align: center;
 }
 /* 엔코아 교육의 장점 끝 */
@@ -563,7 +563,7 @@ h2, h4, p {
 }
 
 .calderaFormDownload a:link{
-  color: #83848A;
+  color: #83848a;
 }
 
 /* 칼데라폼 - 신청서 양식 다운로드 끝 */
@@ -646,7 +646,7 @@ h2, h4, p {
 }
 
 .calderaFormDownload_m a:link{
-  color: #83848A;
+  color: #83848a;
 }
 /* 칼데라폼 - 신청서 양식 다운로드 끝 */
 /* caldera form css 끝 */
@@ -764,7 +764,7 @@ h2{
   font-size: 1.25rem;
   /*30px*/
   line-height: 1.875rem;
-  color: #D1EDBC;
+  color: #d1edbC;
   letter-spacing: -0.1rem;       
 } 
 
@@ -774,7 +774,7 @@ h2{
   /*16px*/
   font-size: 1rem ;
   line-height: 1.5rem;
-  color: #D1EDBC;
+  color: #d1edbC;
   font-weight: 500;
   text-align: center;
 }
@@ -946,9 +946,3 @@ h2{
   letter-spacing: -0.1rem;       
 }
 /* 교육 장소, 교육일정 및 문의 안내 - mobile 끝 */
-
-    
-
-
-
-
