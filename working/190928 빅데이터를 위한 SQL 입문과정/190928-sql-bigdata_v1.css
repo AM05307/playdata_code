@@ -608,56 +608,41 @@ h2, h4, p {
   }
 
 /*공통 - 제목*/
-    h2{
-        text-align: center;
-    }
+  h2{
+    text-align: center;
+  }
 
-    .divTitle_m{
-        padding: 50px 10px 15px 10px;
-        /*35px*/
-        font-size: 2.188rem;
-        /*45px*/    
-        line-height: 2.813rem;
-        color: #5fa52c;
-        /*bold*/
-        font-weight: 700;
-        text-align: center;
-        letter-spacing: -0.15rem;       
-    }
+  .divTitle_m{
+    padding: 50px 10px 15px 10px;
+    /*35px*/
+    font-size: 2.188rem;
+    /*45px*/    
+    line-height: 2.813rem;
+    color: #5fa52c;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: -0.15rem;       
+  }
 
-    .divTitle_m strong{ 
-        font-size: 2.188rem;
-        line-height: 2.813rem;
-        color: #5fa52c;
-        /*black*/
-        font-weight: 800;
-        text-align: center;
-        letter-spacing: -0.1rem; 
-    }
+  .divTitle_m strong{ 
+    font-size: 2.188rem;
+    line-height: 2.813rem;
+    color: #5fa52c;
+    /*black*/
+    font-weight: 800;
+    text-align: center;
+    letter-spacing: -0.1rem; 
+  }
 
-    .divSubTitle_m{
-        padding: 10px 10px 15px 10px;
-        font-size: 1.25rem;
-        line-height: 1.875rem;
-        color: #444444;
-        /*DemiLight*/
-        font-weight: 400;
-        text-align: center;
-        letter-spacing: -0.1rem;       
-    }
-
-
-    .divSubTitle_m strong{
-        /*20px*/
-        font-size: 1.25rem;
-        /*30px*/
-        line-height: 1.875rem;
-        color: #444444;
-        /*Medium*/
-        font-weight: 600;
-        text-align: center;
-        letter-spacing: -0.1rem;       
-    }
+  .divSubTitle_m{
+    padding: 10px 10px 15px 10px;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    color: #444444;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: -0.1rem;       
+  }
 
 /*취업처*/
 
