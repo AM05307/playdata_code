@@ -854,18 +854,6 @@ button.caldera-forms-modal {
     background-repeat: no-repeat;
    }
    
-/*흰색 화살표*/
-#whiteArrow_m::before, #whiteArrow_m::after{
-    position: absolute;
-    content: "";
-    width: 30px;
-    height: 30px;
-    margin-left: 80%;
-    margin-right: 10px;
-    background-position: center center;
-    background-repeat: no-repeat;
-   }
-
 /* 토글 화살표 아이콘 margin left 값 조정 */
     @media screen and (max-width : 700px) and (min-width : 500px) {
         .curriculumSubject_m::before, .curriculumSubject_m::after{
@@ -878,19 +866,7 @@ button.caldera-forms-modal {
             margin-left: 89%;
         }
     }
-    
-/*흰색 화살표*/
-    @media screen and (max-width : 700px) and (min-width : 500px) {
-        #whiteArrow_m::before, #whiteArrow_m::after{
-            margin-left: 85%;
-        }
-    }
-
-    @media screen and (max-width : 994px) and (min-width : 701px) {
-        #whiteArrow_m::before, #whiteArrow_m::after{
-            margin-left: 89%;
-        }
-    }
+ 
 /* 토글 화살표 아이콘 margin left 값 조정 끝 */
 
 /*검정색 화살표*/
@@ -911,26 +887,6 @@ button.caldera-forms-modal {
     transform: translate3d(0, -100%, 0);
 }
 
-/*흰색 화살표*/
-#whiteArrow_m::before{
-    z-index: 1;
-		display: inline-block;
-    background-image: url("http://playdata.io/academy/wp-content/uploads/2019/04/arrow1_down_mobile15x15.png");
-}
-
-#whiteArrow_m::after{
-	  z-index: 0;
-    display: none;
-    background-image: url("http://playdata.io/academy/wp-content/uploads/2019/04/arrow1_up_mobile15x15.png");
-}
-
-.curriculum_m.open #whiteArrow_m::before{
-    display: none;
-}
-.curriculum_m.open #whiteArrow_m::after{
-    display: block;
-    transform: translate3d(0, -100%, 0);
-}
 .curriculumContentContainer_m {
     height: 0;
     overflow: hidden;
