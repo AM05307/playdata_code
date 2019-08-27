@@ -598,23 +598,14 @@ h2, h4, p {
 /* caldera form css 끝 */
 
 /* 공통 - 소제목 밑줄 */
-    .miniline_m{
-      width: 16px;
-      border: 0;
-      height: 2px;
-      background: #7b7b7b;
-      text-align:center; 
-      margin: 0 auto;
-    }
-/* 공통 - 소제목 밑줄 */
-    .miniline_m{
-      width: 16px;
-      border: 0;
-      height: 2px;
-      background: #7b7b7b;
-      text-align:center; 
-      margin: 0 auto;
-    }
+  .miniline_m{
+    width: 16px;
+    border: 0;
+    height: 2px;
+    background: #7b7b7b;
+    text-align:center; 
+    margin: 0 auto;
+  }
 
 /*공통 - 제목*/
     h2{
