@@ -214,7 +214,7 @@ h2, h4, p {
 }
 /* 엔코아 교육의 장점 끝 */
 
-/* 실무 특강 */
+/* 수업에서 배우는 내용 */
 .w1024{
   max-width: 1024px !important;
   margin: 0 auto;
@@ -228,7 +228,6 @@ h2, h4, p {
   height: 170px;
 }
 
-/* 실무 특강 - 전체박스 3,4번째 */
 .lectureDivWhole34{
   position: relative;
   padding-top: 25px;
@@ -236,7 +235,6 @@ h2, h4, p {
   height: 185px;
 }
 
-/* 실무 특강 - 박스 3,4번째 */
 .lectureDivPart34{
   padding-top: 20px;
   padding-bottom: 20px;
@@ -245,7 +243,6 @@ h2, h4, p {
   text-align: center;
 }
 
-/* 실무 특강 - 특강 제목 - 박스 3,4번째 */
 .lectureText34 strong{ 
   padding-top: 10px;
   padding-bottom: 10px;
@@ -258,7 +255,6 @@ h2, h4, p {
   text-align: center;
 }
 
-/* 실무 특강 - 특강 내용 - 박스 3,4번째 */
 .lectureText34{
   padding-top: 20px;
   padding-bottom: 10px;
@@ -270,6 +266,7 @@ h2, h4, p {
   font-weight: 400;
   text-align: center;
 }
+/* 수업에서 배우는 내용 끝 */
 
 /* 커리큘럼 */
 /* 커리큘럼 테이블 */
