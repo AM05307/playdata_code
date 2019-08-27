@@ -815,49 +815,6 @@ h2, h4, p {
 }
 /* 토글메뉴 - Mobile ver 끝 */ 
 
-/* 실무특강 - Mobile ver */
-/* 실무특강 - 박스 - Mobile ver */
-.divH450_m{
-  position: relative;
-  width: auto;
-  height: 225px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  color: #ffffff !important;
-}
-
-/* 실무특강 - 텍스트 박스 - Mobile ver */
-.divOnlyPlaydata_m{
-  position: absolute;
-  width: 100%;
-  text-align: center;
-  color: #ffffff !important;
-}
-
-/* 실무특강 - 제목 - Mobile ver */
-.OnlyPlaydataText_m{
-  margin-bottom: 0px !important;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  font-size: 1.25rem;
-  line-height: 1.875rem;
-  letter-spacing: -0.1rem;
-  color: #ffffff !important;
-  font-weight: 400;
-  text-align: center; 
-}
-
-/* 실무특강 - 내용 - Mobile ver */
-.OnlyPlaydataText_m strong{
-  font-size: 1.25rem;
-  line-height: 1.875rem;
-  letter-spacing: -0.07rem;
-  color: #ffffff !important;
-  font-weight: 700;
-  text-align: center; 
-}
-/* 실무특강 - Mobile ver 끝 */
-
 /* 취업지원 - Mobile ver */
 /* 취업지원 - 박스와 텍스트 박스는 실무특강과 동일 - Mobile ver */
 /* 취업지원 - 1,2,3 번째 제목 - Mobile ver */
