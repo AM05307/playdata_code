@@ -674,7 +674,7 @@ h2, h4, p {
 /*교육 일정 및 문의 안내 끝 */
 
 /* 엔코아 장점 */
-/* 7개월 몰두 - 제목*/
+/* 엔코아 장점 - 제목*/
   .divTitleWhite_m{
       padding: 50px 10px 10px 10px;
       /*35px*/
@@ -682,13 +682,12 @@ h2, h4, p {
       /*45px*/    
       line-height: 2.813rem;
       color: #ffffff;
-      /*bold*/
       font-weight: 700;
       text-align: center;
       letter-spacing: -0.15rem;       
   }
 
-/* 7개월 몰두 - 내용 */
+/* 엔코아 장점 - 내용 */
   .divSubTitleWhite_m{
       padding-top: 15px;
       padding-bottom: 10px;
@@ -697,34 +696,24 @@ h2, h4, p {
       /*30px*/
       line-height: 1.875rem;
       color: #ffffff;
-      /*Regular*/
       font-weight: 500;
       text-align: center;
       letter-spacing: -0.1rem;       
   }  
 
- /* 7개월 몰두 - 지원항목 - 지원내용 */
+ /* 엔코아 장점 강의내용 */
   .divSubTitleColor_m{
-      padding-top: 20px;
-      /*20px*/
-      font-size: 1.25rem;
-      /*30px*/
-      line-height: 1.875rem;
-      color: #D1EDBC;
-      /*Regular, =Bold*/
-      font-weight: 500;
-      text-align: center;
-      letter-spacing: -0.1rem;       
+    padding-top: 20px;
+    text-align: center;
   } 
 
   .divSubTitleColor_m strong{
-      /*20px*/
-      font-size: 1.25rem;
-      /*30px*/
-      line-height: 1.875rem;
-      color: #D1EDBC;
-      text-align: center;
-      letter-spacing: -0.1rem;       
+    /*20px*/
+    font-size: 1.25rem;
+    /*30px*/
+    line-height: 1.875rem;
+    color: #D1EDBC;
+    letter-spacing: -0.1rem;       
   } 
 
   .divTextColor_m{
@@ -737,7 +726,7 @@ h2, h4, p {
     font-weight: 500;
     text-align: center;
   }
-/* 7개월 몰두 끝 */
+/* 엔코아 장점 끝 */
 
 /* 커리큘럼 - Mobile ver */
 .curriculum_m{
