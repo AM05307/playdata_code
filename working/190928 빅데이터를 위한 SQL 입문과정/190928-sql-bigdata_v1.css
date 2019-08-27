@@ -813,28 +813,7 @@ h2, h4, p {
     letter-spacing: -0.1rem;
     line-height: 1.875rem; 
 }
-
 /* 토글메뉴 - Mobile ver 끝 */ 
-
-
-/* 강사소개 - Mobile ver */
-#teacherDiv_m{
-		overflow: hidden;
-    margin-bottom: 10px;
-}
-
-#teacherName_m{
-		margin: 0px;
-    cursor: pointer;
-    padding: 10px 10px 10px 25px;
-    position: relative;
-    /*20px*/
-    font-size: 1.25rem;
-    font-weight: 600 !important; 
-    text-align: left;
-    letter-spacing: -0.05rem;
-}
-/* 강사소개 - Mobile ver 끝 */
 
 /* 실무특강 - Mobile ver */
 /* 공통 - 소제목 밑줄 */
