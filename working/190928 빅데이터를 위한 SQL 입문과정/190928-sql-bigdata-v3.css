@@ -134,30 +134,8 @@ h2, h4, p {
 }
 
 .focusText strong{
-  /*40px*/
-  font-size: 2.5rem;
-  /*60px*/
-  line-height: 3.75rem;
   letter-spacing: -0.1rem;
-  font-weight: 700;
   color: #ffffff;
-  text-align: center;
-}
-
-/* 엔코아 교육의 장점 - 강의소개 */
-.focusNO {
-  text-align: center;
-}
-
-.focusNO strong{
-  /*40px*/
-  font-size: 2.5rem;
-  /*60px*/
-  line-height: 3.75rem;
-  letter-spacing: -0.1rem;
-  font-weight: 700;
-  color: #d1edbC;
-  text-align: center;
 }
 
 /* 엔코아 교육의 장점 - 강의교재 */
