@@ -138,6 +138,21 @@ h2, h4, p {
   color: #ffffff;
 }
 
+.focusNO {	
+  text-align: center;	
+}	
+
+.focusNO strong{	
+  /*40px*/	
+  font-size: 2.5rem;	
+  /*60px*/	
+  line-height: 3.75rem;	
+  letter-spacing: -0.1rem;	
+  font-weight: 700;	
+  color: #d1edbC;	
+  text-align: center;	
+}
+
 /* 엔코아 교육의 장점 - 강의교재 */
 .focusSub{
   /*24px*/
@@ -180,18 +195,6 @@ h2, h4, p {
   text-align: center;
 }
 
-.lectureText34 strong{ 
-  padding-top: 10px;
-  padding-bottom: 10px;
-  /*22px*/
-  font-size: 1.375rem;
-  /*32px*/
-  line-height: 2rem;
-  letter-spacing: -0.05rem;
-  font-weight: 600;
-  text-align: center;
-}
-
 .lectureText34{
   padding-top: 20px;
   padding-bottom: 10px;
@@ -202,6 +205,10 @@ h2, h4, p {
   letter-spacing: -0.07rem;
   font-weight: 400;
   text-align: center;
+}
+
+.lectureText34 strong{ 
+  letter-spacing: -0.05rem;
 }
 /* 수업에서 배우는 내용 끝 */
 
