@@ -182,10 +182,10 @@ h2, h4, p {
 .focusText{
   padding-top: 100px;
   padding-bottom: 50px;
+  /*32px*/
+  font-size: 2rem;
   /*40px*/
-  font-size: 2.5rem;
-  /*60px*/
-  line-height: 3.75rem;
+  line-height: 2.5rem;
   letter-spacing: -0.1rem;
   font-weight: 500;
   color: #ffffff;
@@ -202,10 +202,10 @@ h2, h4, p {
 }	
 
 .focusNO strong{	
+  /*32px*/	
+  font-size: 2rem;	
   /*40px*/	
-  font-size: 2.5rem;	
-  /*60px*/	
-  line-height: 3.75rem;	
+  line-height: 2.5rem;	
   letter-spacing: -0.1rem;	
   font-weight: 700;	
   color: #d1edbC;	
