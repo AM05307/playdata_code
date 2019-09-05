@@ -178,6 +178,19 @@ h2, h4, p {
   text-align: center;
 }
 
+/* 본문 - 추가 설명  */
+.subText{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /*20px*/
+  font-size: 1.25rem;
+  /*32px*/
+  line-height: 2rem;
+  letter-spacing: -0.07rem;
+  font-weight: 400;
+  color: #444444;;
+}
+
 /* 엔코아 교육의 장점 */
 .focusText{
   padding-top: 100px;
