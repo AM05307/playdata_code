@@ -122,8 +122,34 @@ button.caldera-forms-modal {
 #cardButton > a > strong {
   color: #ffffff;
 }
-
 /* 내일배움카드 신청하기 버튼 끝 */
+
+
+/* 모바일 - 내일배움카드 신청하기 버튼 */
+#cardButton_m {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: none;
+  height: 100%;
+  width: 100%;
+  font-size: 2rem;
+  display: block; 
+  text-decoration: none;
+  text-align: center;
+}
+
+#cardButton_m > a {
+  display: block;
+  height: 100%;
+  text-decoration: none;
+}
+
+#cardButton_m > a > strong {
+  color: #000000;
+}
+/* 모바일 - 내일배움카드 신청하기 버튼 끝 */
+
+
 /*===============================================================*/
 /* 메인 이미지 위 공백 삭제 (워드프레스 기본 css 삭제) */
 #main{
