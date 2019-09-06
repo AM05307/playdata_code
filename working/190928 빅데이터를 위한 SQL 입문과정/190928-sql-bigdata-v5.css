@@ -267,6 +267,14 @@ h2, h3, h4, p {
 }
 /* SQL 교육의 특장점 끝 */
 
+/* 수강대상 */
+.boxW390H350 {
+  box-sizing: border-box;
+  width: 390px;
+  height: 350px;
+}
+/* SQL 교육의 특장점 끝 */
+
 /* 엔코아 교육의 장점 */
 .focusText{
   padding-top: 100px;
