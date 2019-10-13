@@ -1,1 +1,2 @@
-# playdata.io
+# url: playdata.io
+playdata.io/academy
